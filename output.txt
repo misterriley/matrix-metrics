@@ -1,0 +1,33 @@
+>> metrictest_imagen
+loading bsl
+loading fu2
+Angular_On_Z IMAGEN mid
+p = 0.940400 +/- 0.002367
+Angular IMAGEN mid
+p = 0.936400 +/- 0.002440
+Euclidean_On_Z IMAGEN mid
+p = 0.908800 +/- 0.002879
+Euclidean IMAGEN mid
+p = 0.910400 +/- 0.002856
+Hellinger IMAGEN mid
+p = 0.500000 +/- 0.005000
+Rao IMAGEN mid
+p = 0.900300 +/- 0.002996
+Wasserstein IMAGEN mid
+p = 0.955300 +/- 0.002066
+loading bsl
+loading fu2
+Angular_On_Z IMAGEN sst
+p = 0.941800 +/- 0.002341
+Angular IMAGEN sst
+p = 0.942000 +/- 0.002337
+Euclidean_On_Z IMAGEN sst
+p = 0.904300 +/- 0.002942
+Euclidean IMAGEN sst
+p = 0.899200 +/- 0.003011
+Hellinger IMAGEN sst
+p = 0.500000 +/- 0.005000
+Rao IMAGEN sst
+p = 0.818400 +/- 0.003855
+Wasserstein IMAGEN sst
+p = 0.955600 +/- 0.002060
