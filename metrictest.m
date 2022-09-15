@@ -57,28 +57,67 @@ function ret = load_mls_by_time(full_folder, time_index)
         if ~endsWith(short_name, '.txt')
             continue
         end
-         file_name = fullfile(directory, short_name);
-    end
+        file_name = fullfile(full_folder, short_name);
+        subj_id = extractBefore(short_name, "_");
 
+        mat = tanh(readmatrix(file_name));
+        for i = 1:size(mat, 1)
+            mat(i,i) = 1;
+        end
+
+        ret(subj_id) = mat;
+    end
 end
 
 function ret = load_mls(data_folder)
     directory = 'E:\dev\Repos\matrix-metrics\' + data_folder;
     time_index = 1;
-    time_maps = []
+    time_maps = {};
     while true
-        time_map = load_mls_by_time(directory, time_index)
-        if size(time_map) == 0
+        fprintf("loading mls data time %d from %s folder\n", ...
+            time_index, data_folder)
+        time_map = load_mls_by_time(directory, time_index);
+        if isempty(time_map)
+            fprintf("no data found for time %d, breaking", time_index)
             break
         end
+        time_maps{time_index} = time_map;
+        time_index = time_index + 1;
+    end
+    
+    all_keys = [];
+    for i = 1:length(time_maps)
+        all_keys = [all_keys keys(time_maps{i})];
     end
 
-    
+    all_keys = unique(all_keys);
+    ret = NaN(length(time_maps),268,268,length(all_keys));
+    for time_index = 1:length(time_maps)
+        time_map = time_maps{time_index};
+        for key_index = 1:length(all_keys)
+            key = all_keys{key_index};
+            if time_map.isKey(key)
+                ret(time_index,:,:,key_index) = time_map(key);
+            end
+        end
+    end
 end
 
 function test_mls()
-    ret = load_mls("matrices");
-    %run_all_test(mat_t1, mat_t2, "mls")
+    dir = "matrices_reward_motion_checked";
+    ret = load_mls(dir);
+    n_time_indices = size(ret,1);
+    for i = 1:n_time_indices
+        for j = 1:n_time_indices
+            if i == j
+                continue
+            end
+            mat_t1 = squeeze(ret(i,:,:,:));
+            mat_t2 = squeeze(ret(j,:,:,:));
+            src = sprintf("mls %s time%d predict time%d", dir, i, j);
+            run_all_tests(mat_t1, mat_t2, src)
+        end
+    end
 end
 
 function main()
