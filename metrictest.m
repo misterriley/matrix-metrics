@@ -30,21 +30,27 @@ function [mat_t1, mat_t2] = load_IMAGEN(mid_or_sst)
 end
 
 function run_all_tests(mat_t1, mat_t2, origin)
+    fid = fopen("output.txt", "a+");
+    fprintf(fid, "\n\t---\nstarting tests for %s", origin);
+    fclose(fid);
     Metrics.Angular_On_Z.run_test(mat_t1, mat_t2, origin)    
     Metrics.Angular.run_test(mat_t1, mat_t2, origin)
     Metrics.Euclidean_On_Z.run_test(mat_t1, mat_t2, origin)
     Metrics.Euclidean.run_test(mat_t1, mat_t2, origin)
-    Metrics.Hellinger.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Hellinger.run_test(mat_t1, mat_t2, origin)
+    %Metrics.KL.run_test(mat_t1, mat_t2, origin)
     Metrics.Rao.run_test(mat_t1, mat_t2, origin)
     Metrics.Wasserstein.run_test(mat_t1, mat_t2, origin)
 end
 
 function test_IMAGEN()
     [mat_t1, mat_t2] = load_IMAGEN("mid");
-    run_all_tests(mat_t1, mat_t2, "IMAGEN mid")
+    run_all_tests(mat_t1, mat_t2, "IMAGEN mid t1 predict t2")
+    run_all_tests(mat_t2, mat_t1, "IMAGEN mid t2 predict t1")
     
     [mat_t1, mat_t2] = load_IMAGEN("sst");
-    run_all_tests(mat_t1, mat_t2, "IMAGEN sst")
+    run_all_tests(mat_t1, mat_t2, "IMAGEN sst t1 predict t2")
+    run_all_tests(mat_t2, mat_t1, "IMAGEN sst t2 predict t1")
 end
 
 function ret = load_mls_by_time(full_folder, time_index)
@@ -78,7 +84,7 @@ function ret = load_mls(data_folder)
             time_index, data_folder)
         time_map = load_mls_by_time(directory, time_index);
         if isempty(time_map)
-            fprintf("no data found for time %d, breaking", time_index)
+            fprintf("no data found for time %d, breaking\n", time_index)
             break
         end
         time_maps{time_index} = time_map;
@@ -103,8 +109,7 @@ function ret = load_mls(data_folder)
     end
 end
 
-function test_mls()
-    dir = "matrices_reward_motion_checked";
+function test_mls_directory(dir)
     ret = load_mls(dir);
     n_time_indices = size(ret,1);
     for i = 1:n_time_indices
@@ -114,9 +119,20 @@ function test_mls()
             end
             mat_t1 = squeeze(ret(i,:,:,:));
             mat_t2 = squeeze(ret(j,:,:,:));
-            src = sprintf("mls %s time%d predict time%d", dir, i, j);
+            src = sprintf("mls %s t%d predict t%d", dir, i, j);
             run_all_tests(mat_t1, mat_t2, src)
         end
+    end
+end
+
+function test_mls()
+    for dir = [%"matrices" ...
+            "matrices_gng" ...
+            "matrices_gng_motion_checked" %...
+            %"matrices_reward" ...
+            %"matrices_reward_motion_checked"
+            ]
+        test_mls_directory(dir)
     end
 end
 
