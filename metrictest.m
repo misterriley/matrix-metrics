@@ -45,11 +45,11 @@ end
 
 function test_IMAGEN()
     [mat_t1, mat_t2] = load_IMAGEN("mid");
-    run_all_tests(mat_t1, mat_t2, "IMAGEN mid t1 predict t2")
+    %run_all_tests(mat_t1, mat_t2, "IMAGEN mid t1 predict t2")
     run_all_tests(mat_t2, mat_t1, "IMAGEN mid t2 predict t1")
     
     [mat_t1, mat_t2] = load_IMAGEN("sst");
-    run_all_tests(mat_t1, mat_t2, "IMAGEN sst t1 predict t2")
+    %run_all_tests(mat_t1, mat_t2, "IMAGEN sst t1 predict t2")
     run_all_tests(mat_t2, mat_t1, "IMAGEN sst t2 predict t1")
 end
 
@@ -137,6 +137,6 @@ function test_mls()
 end
 
 function main()
-    %test_IMAGEN()
-    test_mls()
+    test_IMAGEN()
+    %test_mls()
 end
