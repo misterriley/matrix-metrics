@@ -7,10 +7,14 @@ classdef Metrics
     enumeration
         Angular,
         Angular_On_Z,
+        Chebyshev,
+        Chebyshev_On_Z,
         Euclidean,
         Euclidean_On_Z,
         Hellinger, % no good - determinants are too close to 0
         KL, % no good - determinants are too close to 0
+        Manhattan,
+        Manhattan_On_Z,
         Wasserstein, 
         Rao
     end
@@ -113,9 +117,9 @@ classdef Metrics
             ut2 = x2(utmask);
         end
 
-        function d = pseudo_det(~, x)
+        function d = pseudo_det(obj, x)
             s = svd(x);
-            d = pseudo_det_from_svd(s);
+            d = obj.pseudo_det_from_svd(s);
         end
 
         function d = pseudo_det_from_svd(~, s)
