@@ -33,23 +33,27 @@ function run_all_tests(mat_t1, mat_t2, origin)
     fid = fopen("output.txt", "a+");
     fprintf(fid, "\n\t---\nstarting tests for %s", origin);
     fclose(fid);
-    Metrics.Angular_On_Z.run_test(mat_t1, mat_t2, origin)    
-    Metrics.Angular.run_test(mat_t1, mat_t2, origin)
-    Metrics.Euclidean_On_Z.run_test(mat_t1, mat_t2, origin)
-    Metrics.Euclidean.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Angular_On_Z.run_test(mat_t1, mat_t2, origin)    
+    %Metrics.Angular.run_test(mat_t1, mat_t2, origin)
+    Metrics.Chebyshev.run_test(mat_t1, mat_t2, origin)
+    Metrics.Chebyshev_On_Z.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Euclidean_On_Z.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Euclidean.run_test(mat_t1, mat_t2, origin)
     %Metrics.Hellinger.run_test(mat_t1, mat_t2, origin)
     %Metrics.KL.run_test(mat_t1, mat_t2, origin)
-    Metrics.Rao.run_test(mat_t1, mat_t2, origin)
-    Metrics.Wasserstein.run_test(mat_t1, mat_t2, origin)
+    Metrics.Manhattan.run_test(mat_t1, mat_t2, origin)
+    Metrics.Manhattan_On_Z.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Rao.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Wasserstein.run_test(mat_t1, mat_t2, origin)
 end
 
 function test_IMAGEN()
     [mat_t1, mat_t2] = load_IMAGEN("mid");
-    %run_all_tests(mat_t1, mat_t2, "IMAGEN mid t1 predict t2")
+    run_all_tests(mat_t1, mat_t2, "IMAGEN mid t1 predict t2")
     run_all_tests(mat_t2, mat_t1, "IMAGEN mid t2 predict t1")
     
     [mat_t1, mat_t2] = load_IMAGEN("sst");
-    %run_all_tests(mat_t1, mat_t2, "IMAGEN sst t1 predict t2")
+    run_all_tests(mat_t1, mat_t2, "IMAGEN sst t1 predict t2")
     run_all_tests(mat_t2, mat_t1, "IMAGEN sst t2 predict t1")
 end
 
@@ -126,17 +130,17 @@ function test_mls_directory(dir)
 end
 
 function test_mls()
-    for dir = [%"matrices" ...
+    for dir = ["matrices" ...
             "matrices_gng" ...
-            "matrices_gng_motion_checked" %...
-            %"matrices_reward" ...
-            %"matrices_reward_motion_checked"
+            "matrices_gng_motion_checked" ...
+            "matrices_reward" ...
+            "matrices_reward_motion_checked"
             ]
         test_mls_directory(dir)
     end
 end
 
 function main()
-    test_IMAGEN()
-    %test_mls()
+    %test_IMAGEN()
+    test_mls()
 end

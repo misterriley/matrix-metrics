@@ -77,6 +77,13 @@ classdef Metrics
                     [ut1, ut2] = obj.triu_as_vector(x1, x2);
                     [z1, z2] = obj.r_to_z(ut1, ut2);
                     d = acos(corr(z1, z2))/pi;
+                case Metrics.Chebyshev
+                    [ut1, ut2] = obj.triu_as_vector(x1, x2);
+                    d = norm(ut1 - ut2, inf);
+                case Metrics.Chebyshev_On_Z
+                    [ut1, ut2] = obj.triu_as_vector(x1, x2);
+                    [z1, z2] = obj.r_to_z(ut1, ut2);
+                    d = norm(z1 - z2, inf);
                 case Metrics.Euclidean
                     [ut1, ut2] = obj.triu_as_vector(x1, x2);
                     d = norm(ut1 - ut2);
@@ -95,6 +102,13 @@ classdef Metrics
                 case Metrics.KL
                     d = trace(x1/x2) + ...
                         log(obj.pseudo_det(x1)/obj.pseudo_det(x2));
+                case Metrics.Manhattan
+                    [ut1, ut2] = obj.triu_as_vector(x1, x2);
+                    d = norm(ut1 - ut2, 1);
+                case Metrics.Manhattan_On_Z
+                    [ut1, ut2] = obj.triu_as_vector(x1, x2);
+                    [z1, z2] = obj.r_to_z(ut1, ut2);
+                    d = norm(z1 - z2, 1);
                 case Metrics.Rao
                     invsqrtx2 = (x2)^(-.5);
                     s = svd(invsqrtx2 * x1 * invsqrtx2);
