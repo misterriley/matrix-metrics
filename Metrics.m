@@ -115,8 +115,8 @@ classdef Metrics
                     logs = log(s);
                     d = sum(logs.^2);
                 case Metrics.Wasserstein
-                    sqrtx2 = sqrtm(x2);
-                    d = trace(x1 + x2 - 2*sqrtm(sqrtx2 * x1 * sqrtx2));
+                    sqrtx2 = x2^(1/2);
+                    d = real(sqrt(trace(x1 + x2 - 2*(sqrtx2 * x1 * sqrtx2)^(1/2))));
             end
         end
 
