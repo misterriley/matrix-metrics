@@ -182,6 +182,12 @@ function build_t1_and_t2_matrices()
     writematrix(a_t2, "b_temp_t2.txt");
 end
 
+function write_embedding(dm, dimension, filename)
+    options = statset('MaxIter', 10000);
+    [X,~] = mdscale(dm, dimension, 'Criterion','metricstress', 'Options', options);
+    writematrix(X,filename);
+end
+
 function main()
     distances = readmatrix("dm_temp_t2.txt");
     good_audit = readmatrix("b_temp_t2.txt");
