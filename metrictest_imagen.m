@@ -30,13 +30,13 @@ function [mat_t1, mat_t2] = load_IMAGEN(mid_or_sst)
 end
 
 function run_all_tests(mat_t1, mat_t2, origin)
-    Metrics.Angular_On_Z.run_test(mat_t1, mat_t2, origin)    
-    Metrics.Angular.run_test(mat_t1, mat_t2, origin)
-    Metrics.Euclidean_On_Z.run_test(mat_t1, mat_t2, origin)
-    Metrics.Euclidean.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Angular_On_Z.run_test(mat_t1, mat_t2, origin)    
+    %Metrics.Angular.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Euclidean_On_Z.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Euclidean.run_test(mat_t1, mat_t2, origin)
     Metrics.Hellinger.run_test(mat_t1, mat_t2, origin)
-    Metrics.Rao.run_test(mat_t1, mat_t2, origin)
-    Metrics.Wasserstein.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Rao.run_test(mat_t1, mat_t2, origin)
+    %Metrics.Wasserstein.run_test(mat_t1, mat_t2, origin)
 end
 
 function test_IMAGEN()

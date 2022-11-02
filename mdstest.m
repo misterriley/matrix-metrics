@@ -39,7 +39,7 @@ function ret=w_dist(xi, xj)
 end
 
 function write_dist_matrix()
-    gcp; % create a default parallel pool if none exists
+    
     [mat_t1, mat_t2] = load_IMAGEN("mid");
     m_data = get_master_data();
     
@@ -54,12 +54,19 @@ function write_dist_matrix()
     end
     
     %good_i = good_i(1:100);
+
+    good_audit_1 = m_data{good_i, "audit_c_total_score_bsl"};
+    good_audit_2 = m_data{good_i, "audit_c_total_score_fu2"};
+    good_audit = cat(1, good_audit_1, good_audit_2);
+    writematrix(good_audit, "b_temp.txt")
+    
     good_mat_1 = mat_t1(:,:,good_i);
     good_mat_2 = mat_t2(:,:,good_i);
     good_mat_all = cat(3,good_mat_1, good_mat_2);
     
     distances_ut = zeros(length(good_mat_all), length(good_mat_all));
     
+    gcp; % create a default parallel pool if none exists
     hundred_sixteen_time = 110;
     time_est = hundred_sixteen_time * (length(good_mat_all)/100)^2 * 16/gcp().NumWorkers;
     disp(["Wass. time ~ " num2str(round(time_est)) " seconds"]);
@@ -74,44 +81,111 @@ function write_dist_matrix()
     end
 
     distances = distances_ut + tril(distances_ut',-1);
-    writematrix(distances, "E:\\dev\\Repos\\matrix-metrics\\dm_temp.txt");
-
-    good_audit_1 = m_data{good_i, "audit_c_total_score_bsl"};
-    good_audit_2 = m_data{good_i, "audit_c_total_score_fu2"};
-    good_audit = [good_audit_1 good_audit_2];
-    
-    writematrix(good_audit, "E:\\dev\\Repos\\matrix-metrics\\b_temp.txt")
+    writematrix(distances, "dm_temp.txt");
 end
 
-
-function main()
-    write_dist_matrix()
-    distances = readmatrix("E:\\dev\\Repos\\matrix-metrics\\dm_temp.txt");
-    good_audit = readmatrix("E:\\dev\\Repos\\matrix-metrics\\b_temp.txt");
+function test_vector_embedding()
+    %write_dist_matrix()
+    distances = readmatrix("dm_temp.txt");
+    good_audit = readmatrix("b_temp.txt");
+    n_subs = length(good_audit)/2;
     
     options = statset('MaxIter', 10000);
 
-    n_is = 70;
+    n_is = 10;
     stresses = zeros(n_is);
     rsquareds = zeros(n_is);
     rsquareds_adj = zeros(n_is);
     is = 1:n_is;
+    t1_audits = good_audit(1:n_subs);
+    t2_audits = good_audit(n_subs+1:2*n_subs);
+    audit_diffs = t2_audits - t1_audits;
     for i = is
-        disp(i);
-        [X,stress] = mdscale(distances, i, 'Criterion','metricstress', 'Options', options);
+        dim = fibonacci(i + 1);
+        disp(dim);
+        [X,stress] = mdscale(distances, dim, 'Criterion','metricstress', 'Options', options);
         stresses(i) = stress;
+
+        t1_embeds = X(1:n_subs,:);
+        t2_embeds = X(n_subs+1:2*n_subs,:);
+
+        vecs = t2_embeds - t1_embeds;
         
-        b = fitlm(X, good_audit);
+        b = fitlm(vecs, audit_diffs);
         rsquareds(i) = b.Rsquared.Ordinary;
         rsquareds_adj(i) = b.Rsquared.Adjusted;
         disp(b);
     end
 
-    plot(is, stresses);
+    display_graph(dims, stresses, rsquareds, rsquareds_adj);
+end
+
+function test_point_embedding(distances, good_audit)
+    %write_dist_matrix()
+    %distances = readmatrix("dm_temp.txt");
+    %good_audit = readmatrix("b_temp.txt");
+    
+    options = statset('MaxIter', 10000);
+
+    n_is = 3;
+    stresses = zeros(n_is);
+    rs = zeros(n_is);
+    rs_adj = zeros(n_is);
+    is = 1:n_is;
+    dims = zeros(n_is);
+    for i = is
+        disp(i);
+        if i == min(is)
+            dims(i) = i;
+        else
+            dims(i) = max(i+1, int16(dims(i-1)*1.25));
+        end
+        [X,stress] = mdscale(distances, dims(i), 'Criterion','metricstress', 'Options', options);
+        stresses(i) = stress;
+        
+        b = fitlm(X, good_audit);
+        rs(i) = sqrt(b.Rsquared.Ordinary);
+        rs_adj(i) = sqrt(b.Rsquared.Adjusted);
+        disp(b);
+    end
+
+    display_graph(dims, stresses, rs, rs_adj);
+end
+
+function display_graph(dims, stresses, rsquareds, rsquareds_adj)
+    plot(dims, stresses);
     hold on;
-    plot(is, rsquareds);
-    plot(is, rsquareds_adj);
+    plot(dims, rsquareds);
+    plot(dims, rsquareds_adj);
     legend("stress", "r squared", "r squared (adj)");
     hold off;
+end
 
+function build_t1_and_t2_matrices()
+    distances = readmatrix("dm_temp_t1_t2.txt");
+    good_audit = readmatrix("b_temp_t1_t2.txt");
+    n_subs = length(good_audit)/2;
+
+    sq_1 = 1:n_subs;
+    sq_2 = n_subs + 1:2*n_subs;
+
+    d_t1 = distances(sq_1,sq_1);
+    d_t2 = distances(sq_2,sq_2);
+
+    a_t1 = good_audit(sq_1);
+    a_t2 = good_audit(sq_2);
+
+    writematrix(d_t1, "dm_temp_t1.txt");
+    writematrix(d_t2, "dm_temp_t2.txt");
+
+    writematrix(a_t1, "b_temp_t1.txt");
+    writematrix(a_t2, "b_temp_t2.txt");
+end
+
+function main()
+    distances = readmatrix("dm_temp_t2.txt");
+    good_audit = readmatrix("b_temp_t2.txt");
+    %test_vector_embedding()
+    test_point_embedding(distances, good_audit)
+    %build_t1_and_t2_matrices();
 end
