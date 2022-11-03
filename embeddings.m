@@ -36,15 +36,17 @@ function main()
     gcp;
     metricname = "Wasserstein";
     dataset = "IMAGEN";
-    timepoint = "t1";
-
-    dm = read_distance_matrix(metricname, dataset, timepoint);
-
-    parfor dim = 1:200
-        disp(strcat("starting  ", int2str(dim)));
-        drawnow('update');
-        build_and_write_embedding(dm, metricname, dataset, timepoint, dim);
-        disp(strcat("finishing ", int2str(dim)));
-        drawnow('update');
+    for timepoint = ["t2", "t1", "t1_t2"]
+        %timepoint = "t1";
+    
+        dm = read_distance_matrix(metricname, dataset, timepoint);
+    
+        parfor dim = 1:200
+            disp(strcat("starting  ", int2str(dim)));
+            drawnow('update');
+            build_and_write_embedding(dm, metricname, dataset, timepoint, dim);
+            disp(strcat("finishing ", int2str(dim)));
+            drawnow('update');
+        end
     end
 end
