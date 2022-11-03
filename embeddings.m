@@ -25,9 +25,11 @@ end
 
 function build_and_write_embedding(dm, metricname, dataset, timepoint, dimension)
     filepath = get_embedding_filepath(metricname, dataset, timepoint, dimension);
-    options = statset('MaxIter', 10000);
-    [X,~] = mdscale(dm, dimension, 'Criterion','metricstress', 'Options', options);
-    writematrix(X,filepath);
+    if not(isfile(filepath))
+        options = statset('MaxIter', 10000);
+        [X,~] = mdscale(dm, dimension, 'Criterion','metricstress', 'Options', options);
+        writematrix(X,filepath);
+    end
 end
 
 function main()
