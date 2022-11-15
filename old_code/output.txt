@@ -1,0 +1,2145 @@
+>> metrictest_imagen
+loading bsl
+loading fu2
+Angular_On_Z IMAGEN mid
+p = 0.940400 +/- 0.002367
+Angular IMAGEN mid
+p = 0.936400 +/- 0.002440
+Euclidean_On_Z IMAGEN mid
+p = 0.908800 +/- 0.002879
+Euclidean IMAGEN mid
+p = 0.910400 +/- 0.002856
+Hellinger IMAGEN mid
+p = 0.500000 +/- 0.005000
+Rao IMAGEN mid
+p = 0.900300 +/- 0.002996
+Wasserstein IMAGEN mid
+p = 0.955300 +/- 0.002066
+loading bsl
+loading fu2
+Angular_On_Z IMAGEN sst
+p = 0.941800 +/- 0.002341
+Angular IMAGEN sst
+p = 0.942000 +/- 0.002337
+Euclidean_On_Z IMAGEN sst
+p = 0.904300 +/- 0.002942
+Euclidean IMAGEN sst
+p = 0.899200 +/- 0.003011
+Hellinger IMAGEN sst
+p = 0.500000 +/- 0.005000
+Rao IMAGEN sst
+p = 0.818400 +/- 0.003855
+Wasserstein IMAGEN sst
+p = 0.955600 +/- 0.002060
+Angular_On_Z mls matrices t1 predict t2
+p = 0.995800 +/- 0.000647
+Angular mls matrices t1 predict t2
+p = 0.995000 +/- 0.000705
+Euclidean_On_Z mls matrices t1 predict t2
+p = 0.948400 +/- 0.002212
+Euclidean mls matrices t1 predict t2
+p = 0.954700 +/- 0.002080
+Rao mls matrices t1 predict t2
+p = 0.884400 +/- 0.003197
+Wasserstein mls matrices t1 predict t2
+p = 0.999700 +/- 0.000173
+Angular_On_Z mls matrices t1 predict t3
+p = 0.979200 +/- 0.001427
+Angular mls matrices t1 predict t3
+p = 0.978500 +/- 0.001450
+Euclidean_On_Z mls matrices t1 predict t3
+p = 0.920200 +/- 0.002710
+Euclidean mls matrices t1 predict t3
+p = 0.931400 +/- 0.002528
+Rao mls matrices t1 predict t3
+p = 0.955700 +/- 0.002058
+Wasserstein mls matrices t1 predict t3
+p = 0.995500 +/- 0.000669
+Angular_On_Z mls matrices t1 predict t4
+p = 0.982800 +/- 0.001300
+Angular mls matrices t1 predict t4
+p = 0.982600 +/- 0.001308
+Euclidean_On_Z mls matrices t1 predict t4
+p = 0.916800 +/- 0.002762
+Euclidean mls matrices t1 predict t4
+p = 0.928300 +/- 0.002580
+Rao mls matrices t1 predict t4
+p = 0.952900 +/- 0.002119
+Wasserstein mls matrices t1 predict t4
+p = 0.997000 +/- 0.000547
+Angular_On_Z mls matrices t1 predict t5
+p = 0.983400 +/- 0.001278
+Angular mls matrices t1 predict t5
+p = 0.981700 +/- 0.001340
+Euclidean_On_Z mls matrices t1 predict t5
+p = 0.907700 +/- 0.002894
+Euclidean mls matrices t1 predict t5
+p = 0.920300 +/- 0.002708
+Rao mls matrices t1 predict t5
+p = 0.955400 +/- 0.002064
+Wasserstein mls matrices t1 predict t5
+p = 0.998500 +/- 0.000387
+Angular_On_Z mls matrices t2 predict t1
+p = 0.994200 +/- 0.000759
+Angular mls matrices t2 predict t1
+p = 0.995100 +/- 0.000698
+Euclidean_On_Z mls matrices t2 predict t1
+p = 0.962800 +/- 0.001893
+Euclidean mls matrices t2 predict t1
+p = 0.966600 +/- 0.001797
+Rao mls matrices t2 predict t1
+p = 0.904200 +/- 0.002943
+Wasserstein mls matrices t2 predict t1
+p = 0.998800 +/- 0.000346
+Angular_On_Z mls matrices t2 predict t3
+p = 0.989700 +/- 0.001010
+Angular mls matrices t2 predict t3
+p = 0.991500 +/- 0.000918
+Euclidean_On_Z mls matrices t2 predict t3
+p = 0.947200 +/- 0.002236
+Euclidean mls matrices t2 predict t3
+p = 0.955500 +/- 0.002062
+Rao mls matrices t2 predict t3
+p = 0.963000 +/- 0.001888
+Wasserstein mls matrices t2 predict t3
+p = 0.998600 +/- 0.000374
+Angular_On_Z mls matrices t2 predict t4
+p = 0.988700 +/- 0.001057
+Angular mls matrices t2 predict t4
+p = 0.988400 +/- 0.001071
+Euclidean_On_Z mls matrices t2 predict t4
+p = 0.927600 +/- 0.002591
+Euclidean mls matrices t2 predict t4
+p = 0.939100 +/- 0.002391
+Rao mls matrices t2 predict t4
+p = 0.959700 +/- 0.001967
+Wasserstein mls matrices t2 predict t4
+p = 0.998600 +/- 0.000374
+Angular_On_Z mls matrices t2 predict t5
+p = 0.988600 +/- 0.001062
+Angular mls matrices t2 predict t5
+p = 0.987900 +/- 0.001093
+Euclidean_On_Z mls matrices t2 predict t5
+p = 0.929500 +/- 0.002560
+Euclidean mls matrices t2 predict t5
+p = 0.939500 +/- 0.002384
+Rao mls matrices t2 predict t5
+p = 0.958100 +/- 0.002004
+Wasserstein mls matrices t2 predict t5
+p = 0.999400 +/- 0.000245
+Angular_On_Z mls matrices t3 predict t1
+p = 0.988100 +/- 0.001084
+Angular mls matrices t3 predict t1
+p = 0.988700 +/- 0.001057
+Euclidean_On_Z mls matrices t3 predict t1
+p = 0.946100 +/- 0.002258
+Euclidean mls matrices t3 predict t1
+p = 0.951400 +/- 0.002150
+Rao mls matrices t3 predict t1
+p = 0.754500 +/- 0.004304
+Wasserstein mls matrices t3 predict t1
+p = 0.999400 +/- 0.000245
+Angular_On_Z mls matrices t3 predict t2
+p = 0.992500 +/- 0.000863
+Angular mls matrices t3 predict t2
+p = 0.993100 +/- 0.000828
+Euclidean_On_Z mls matrices t3 predict t2
+p = 0.954600 +/- 0.002082
+Euclidean mls matrices t3 predict t2
+p = 0.958400 +/- 0.001997
+Rao mls matrices t3 predict t2
+p = 0.764900 +/- 0.004241
+Wasserstein mls matrices t3 predict t2
+p = 0.999300 +/- 0.000264
+Angular_On_Z mls matrices t3 predict t4
+p = 0.997000 +/- 0.000547
+Angular mls matrices t3 predict t4
+p = 0.996500 +/- 0.000591
+Euclidean_On_Z mls matrices t3 predict t4
+p = 0.980000 +/- 0.001400
+Euclidean mls matrices t3 predict t4
+p = 0.985100 +/- 0.001212
+Rao mls matrices t3 predict t4
+p = 0.974700 +/- 0.001570
+Wasserstein mls matrices t3 predict t4
+p = 0.999900 +/- 0.000100
+Angular_On_Z mls matrices t3 predict t5
+p = 0.996600 +/- 0.000582
+Angular mls matrices t3 predict t5
+p = 0.996700 +/- 0.000574
+Euclidean_On_Z mls matrices t3 predict t5
+p = 0.973700 +/- 0.001600
+Euclidean mls matrices t3 predict t5
+p = 0.978700 +/- 0.001444
+Rao mls matrices t3 predict t5
+p = 0.974700 +/- 0.001570
+Wasserstein mls matrices t3 predict t5
+p = 0.999600 +/- 0.000200
+Angular_On_Z mls matrices t4 predict t1
+p = 0.986700 +/- 0.001146
+Angular mls matrices t4 predict t1
+p = 0.989000 +/- 0.001043
+Euclidean_On_Z mls matrices t4 predict t1
+p = 0.941000 +/- 0.002356
+Euclidean mls matrices t4 predict t1
+p = 0.950500 +/- 0.002169
+Rao mls matrices t4 predict t1
+p = 0.745100 +/- 0.004358
+Wasserstein mls matrices t4 predict t1
+p = 0.998600 +/- 0.000374
+Angular_On_Z mls matrices t4 predict t2
+p = 0.991600 +/- 0.000913
+Angular mls matrices t4 predict t2
+p = 0.992300 +/- 0.000874
+Euclidean_On_Z mls matrices t4 predict t2
+p = 0.941500 +/- 0.002347
+Euclidean mls matrices t4 predict t2
+p = 0.950300 +/- 0.002173
+Rao mls matrices t4 predict t2
+p = 0.737200 +/- 0.004402
+Wasserstein mls matrices t4 predict t2
+p = 0.999200 +/- 0.000283
+Angular_On_Z mls matrices t4 predict t3
+p = 0.997500 +/- 0.000499
+Angular mls matrices t4 predict t3
+p = 0.998400 +/- 0.000400
+Euclidean_On_Z mls matrices t4 predict t3
+p = 0.982200 +/- 0.001322
+Euclidean mls matrices t4 predict t3
+p = 0.983700 +/- 0.001266
+Rao mls matrices t4 predict t3
+p = 0.972700 +/- 0.001630
+Wasserstein mls matrices t4 predict t3
+p = 1.000000 +/- 0.000000
+Angular_On_Z mls matrices t4 predict t5
+p = 0.998400 +/- 0.000400
+Angular mls matrices t4 predict t5
+p = 0.999000 +/- 0.000316
+Euclidean_On_Z mls matrices t4 predict t5
+p = 0.980100 +/- 0.001397
+Euclidean mls matrices t4 predict t5
+p = 0.984300 +/- 0.001243
+Rao mls matrices t4 predict t5
+p = 0.980400 +/- 0.001386
+Wasserstein mls matrices t4 predict t5
+p = 0.999700 +/- 0.000173
+Angular_On_Z mls matrices t5 predict t1
+p = 0.990600 +/- 0.000965
+Angular mls matrices t5 predict t1
+p = 0.989600 +/- 0.001014
+Euclidean_On_Z mls matrices t5 predict t1
+p = 0.944500 +/- 0.002290
+Euclidean mls matrices t5 predict t1
+p = 0.944100 +/- 0.002297
+Rao mls matrices t5 predict t1
+p = 0.729000 +/- 0.004445
+Wasserstein mls matrices t5 predict t1
+p = 0.998200 +/- 0.000424
+Angular_On_Z mls matrices t5 predict t2
+p = 0.990100 +/- 0.000990
+Angular mls matrices t5 predict t2
+p = 0.989400 +/- 0.001024
+Euclidean_On_Z mls matrices t5 predict t2
+p = 0.946500 +/- 0.002250
+Euclidean mls matrices t5 predict t2
+p = 0.948000 +/- 0.002220
+Rao mls matrices t5 predict t2
+p = 0.736300 +/- 0.004406
+Wasserstein mls matrices t5 predict t2
+p = 0.999500 +/- 0.000224
+Angular_On_Z mls matrices t5 predict t3
+p = 0.998700 +/- 0.000360
+Angular mls matrices t5 predict t3
+p = 0.998300 +/- 0.000412
+Euclidean_On_Z mls matrices t5 predict t3
+p = 0.985900 +/- 0.001179
+Euclidean mls matrices t5 predict t3
+p = 0.986600 +/- 0.001150
+Rao mls matrices t5 predict t3
+p = 0.976100 +/- 0.001527
+Wasserstein mls matrices t5 predict t3
+p = 1.000000 +/- 0.000000
+Angular_On_Z mls matrices t5 predict t4
+p = 0.998400 +/- 0.000400
+Angular mls matrices t5 predict t4
+p = 0.998400 +/- 0.000400
+Euclidean_On_Z mls matrices t5 predict t4
+p = 0.984500 +/- 0.001235
+Euclidean mls matrices t5 predict t4
+p = 0.988300 +/- 0.001075
+Rao mls matrices t5 predict t4
+p = 0.978400 +/- 0.001454
+Wasserstein mls matrices t5 predict t4
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_reward t1 predict t2
+Angular_On_Z mls matrices_reward t1 predict t2
+p = 0.999200 +/- 0.000283
+
+Angular mls matrices_reward t1 predict t2
+p = 0.999300 +/- 0.000264
+
+Euclidean_On_Z mls matrices_reward t1 predict t2
+p = 0.989300 +/- 0.001029
+
+Euclidean mls matrices_reward t1 predict t2
+p = 0.992900 +/- 0.000840
+
+Rao mls matrices_reward t1 predict t2
+p = 0.967200 +/- 0.001781
+
+Wasserstein mls matrices_reward t1 predict t2
+p = 1.000000 +/- 0.000000
+
+	---
+starting tests for mls matrices_reward t2 predict t1
+Angular_On_Z mls matrices_reward t2 predict t1
+p = 0.998700 +/- 0.000360
+
+Angular mls matrices_reward t2 predict t1
+p = 0.998500 +/- 0.000387
+
+Euclidean_On_Z mls matrices_reward t2 predict t1
+p = 0.989300 +/- 0.001029
+
+Euclidean mls matrices_reward t2 predict t1
+p = 0.990800 +/- 0.000955
+
+Rao mls matrices_reward t2 predict t1
+p = 0.978400 +/- 0.001454
+
+Wasserstein mls matrices_reward t2 predict t1
+p = 1.000000 +/- 0.000000
+
+	---
+starting tests for mls matrices_reward_motion_checked t1 predict t2
+Angular_On_Z mls matrices_reward_motion_checked t1 predict t2
+p = 0.999400 +/- 0.000245
+
+Angular mls matrices_reward_motion_checked t1 predict t2
+p = 0.999100 +/- 0.000300
+
+Euclidean_On_Z mls matrices_reward_motion_checked t1 predict t2
+p = 0.991700 +/- 0.000907
+
+Euclidean mls matrices_reward_motion_checked t1 predict t2
+p = 0.992300 +/- 0.000874
+
+Rao mls matrices_reward_motion_checked t1 predict t2
+p = 0.972300 +/- 0.001641
+
+Wasserstein mls matrices_reward_motion_checked t1 predict t2
+p = 0.999900 +/- 0.000100
+
+	---
+starting tests for mls matrices_reward_motion_checked t2 predict t1
+Angular_On_Z mls matrices_reward_motion_checked t2 predict t1
+p = 0.998800 +/- 0.000346
+
+Angular mls matrices_reward_motion_checked t2 predict t1
+p = 0.999200 +/- 0.000283
+
+Euclidean_On_Z mls matrices_reward_motion_checked t2 predict t1
+p = 0.987100 +/- 0.001128
+
+Euclidean mls matrices_reward_motion_checked t2 predict t1
+p = 0.987800 +/- 0.001098
+
+Rao mls matrices_reward_motion_checked t2 predict t1
+p = 0.976300 +/- 0.001521
+
+Wasserstein mls matrices_reward_motion_checked t2 predict t1
+p = 1.000000 +/- 0.000000
+
+	---
+starting tests for mls matrices_gng t1 predict t2
+Angular_On_Z mls matrices_gng t1 predict t2
+p = 0.995700 +/- 0.000654
+
+Angular mls matrices_gng t1 predict t2
+p = 0.995900 +/- 0.000639
+
+Euclidean_On_Z mls matrices_gng t1 predict t2
+p = 0.965200 +/- 0.001833
+
+Euclidean mls matrices_gng t1 predict t2
+p = 0.970900 +/- 0.001681
+
+Rao mls matrices_gng t1 predict t2
+p = 0.972300 +/- 0.001641
+
+Wasserstein mls matrices_gng t1 predict t2
+p = 0.999500 +/- 0.000224
+
+	---
+starting tests for mls matrices_gng t1 predict t3
+Angular_On_Z mls matrices_gng t1 predict t3
+p = 0.987300 +/- 0.001120
+
+Angular mls matrices_gng t1 predict t3
+p = 0.986600 +/- 0.001150
+
+Euclidean_On_Z mls matrices_gng t1 predict t3
+p = 0.945000 +/- 0.002280
+
+Euclidean mls matrices_gng t1 predict t3
+p = 0.951200 +/- 0.002154
+
+Rao mls matrices_gng t1 predict t3
+p = 0.965100 +/- 0.001835
+
+Wasserstein mls matrices_gng t1 predict t3
+p = 0.996100 +/- 0.000623
+
+	---
+starting tests for mls matrices_gng t1 predict t4
+Angular_On_Z mls matrices_gng t1 predict t4
+p = 0.987100 +/- 0.001128
+
+Angular mls matrices_gng t1 predict t4
+p = 0.986700 +/- 0.001146
+
+Euclidean_On_Z mls matrices_gng t1 predict t4
+p = 0.936100 +/- 0.002446
+
+Euclidean mls matrices_gng t1 predict t4
+p = 0.946100 +/- 0.002258
+
+Rao mls matrices_gng t1 predict t4
+p = 0.960200 +/- 0.001955
+
+Wasserstein mls matrices_gng t1 predict t4
+p = 0.997400 +/- 0.000509
+
+	---
+starting tests for mls matrices_gng t1 predict t5
+Angular_On_Z mls matrices_gng t1 predict t5
+p = 0.984400 +/- 0.001239
+
+Angular mls matrices_gng t1 predict t5
+p = 0.985700 +/- 0.001187
+
+Euclidean_On_Z mls matrices_gng t1 predict t5
+p = 0.923800 +/- 0.002653
+
+Euclidean mls matrices_gng t1 predict t5
+p = 0.932800 +/- 0.002504
+
+Rao mls matrices_gng t1 predict t5
+p = 0.962700 +/- 0.001895
+
+Wasserstein mls matrices_gng t1 predict t5
+p = 0.999200 +/- 0.000283
+
+	---
+starting tests for mls matrices_gng t2 predict t1
+Angular_On_Z mls matrices_gng t2 predict t1
+p = 0.997500 +/- 0.000499
+
+Angular mls matrices_gng t2 predict t1
+p = 0.996700 +/- 0.000574
+
+Euclidean_On_Z mls matrices_gng t2 predict t1
+p = 0.984200 +/- 0.001247
+
+Euclidean mls matrices_gng t2 predict t1
+p = 0.986700 +/- 0.001146
+
+Rao mls matrices_gng t2 predict t1
+p = 0.972900 +/- 0.001624
+
+Wasserstein mls matrices_gng t2 predict t1
+p = 0.998400 +/- 0.000400
+
+	---
+starting tests for mls matrices_gng t2 predict t3
+Angular_On_Z mls matrices_gng t2 predict t3
+p = 0.993300 +/- 0.000816
+
+Angular mls matrices_gng t2 predict t3
+p = 0.992400 +/- 0.000868
+
+Euclidean_On_Z mls matrices_gng t2 predict t3
+p = 0.970300 +/- 0.001698
+
+Euclidean mls matrices_gng t2 predict t3
+p = 0.974700 +/- 0.001570
+
+Rao mls matrices_gng t2 predict t3
+p = 0.973000 +/- 0.001621
+
+Wasserstein mls matrices_gng t2 predict t3
+p = 0.999100 +/- 0.000300
+
+	---
+starting tests for mls matrices_gng t2 predict t4
+Angular_On_Z mls matrices_gng t2 predict t4
+p = 0.991200 +/- 0.000934
+
+Angular mls matrices_gng t2 predict t4
+p = 0.992100 +/- 0.000885
+
+Euclidean_On_Z mls matrices_gng t2 predict t4
+p = 0.958700 +/- 0.001990
+
+Euclidean mls matrices_gng t2 predict t4
+p = 0.968900 +/- 0.001736
+
+Rao mls matrices_gng t2 predict t4
+p = 0.967900 +/- 0.001763
+
+Wasserstein mls matrices_gng t2 predict t4
+p = 0.999000 +/- 0.000316
+
+	---
+starting tests for mls matrices_gng t2 predict t5
+Angular_On_Z mls matrices_gng t2 predict t5
+p = 0.990200 +/- 0.000985
+
+Angular mls matrices_gng t2 predict t5
+p = 0.991200 +/- 0.000934
+
+Euclidean_On_Z mls matrices_gng t2 predict t5
+p = 0.953800 +/- 0.002099
+
+Euclidean mls matrices_gng t2 predict t5
+p = 0.958400 +/- 0.001997
+
+Rao mls matrices_gng t2 predict t5
+p = 0.969800 +/- 0.001711
+
+Wasserstein mls matrices_gng t2 predict t5
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_gng t3 predict t1
+Angular_On_Z mls matrices_gng t3 predict t1
+p = 0.993700 +/- 0.000791
+
+Angular mls matrices_gng t3 predict t1
+p = 0.995400 +/- 0.000677
+
+Euclidean_On_Z mls matrices_gng t3 predict t1
+p = 0.973100 +/- 0.001618
+
+Euclidean mls matrices_gng t3 predict t1
+p = 0.975400 +/- 0.001549
+
+Rao mls matrices_gng t3 predict t1
+p = 0.961200 +/- 0.001931
+
+Wasserstein mls matrices_gng t3 predict t1
+p = 0.999600 +/- 0.000200
+
+	---
+starting tests for mls matrices_gng t3 predict t2
+Angular_On_Z mls matrices_gng t3 predict t2
+p = 0.995600 +/- 0.000662
+
+Angular mls matrices_gng t3 predict t2
+p = 0.996400 +/- 0.000599
+
+Euclidean_On_Z mls matrices_gng t3 predict t2
+p = 0.972100 +/- 0.001647
+
+Euclidean mls matrices_gng t3 predict t2
+p = 0.968800 +/- 0.001739
+
+Rao mls matrices_gng t3 predict t2
+p = 0.971700 +/- 0.001658
+
+Wasserstein mls matrices_gng t3 predict t2
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_gng t3 predict t4
+Angular_On_Z mls matrices_gng t3 predict t4
+p = 0.997200 +/- 0.000528
+
+Angular mls matrices_gng t3 predict t4
+p = 0.996500 +/- 0.000591
+
+Euclidean_On_Z mls matrices_gng t3 predict t4
+p = 0.980900 +/- 0.001369
+
+Euclidean mls matrices_gng t3 predict t4
+p = 0.984400 +/- 0.001239
+
+Rao mls matrices_gng t3 predict t4
+p = 0.973600 +/- 0.001603
+
+Wasserstein mls matrices_gng t3 predict t4
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_gng t3 predict t5
+Angular_On_Z mls matrices_gng t3 predict t5
+p = 0.996600 +/- 0.000582
+
+Angular mls matrices_gng t3 predict t5
+p = 0.996200 +/- 0.000615
+
+Euclidean_On_Z mls matrices_gng t3 predict t5
+p = 0.972000 +/- 0.001650
+
+Euclidean mls matrices_gng t3 predict t5
+p = 0.977800 +/- 0.001473
+
+Rao mls matrices_gng t3 predict t5
+p = 0.975500 +/- 0.001546
+
+Wasserstein mls matrices_gng t3 predict t5
+p = 0.999700 +/- 0.000173
+
+	---
+starting tests for mls matrices_gng t4 predict t1
+Angular_On_Z mls matrices_gng t4 predict t1
+p = 0.993200 +/- 0.000822
+
+Angular mls matrices_gng t4 predict t1
+p = 0.991300 +/- 0.000929
+
+Euclidean_On_Z mls matrices_gng t4 predict t1
+p = 0.970300 +/- 0.001698
+
+Euclidean mls matrices_gng t4 predict t1
+p = 0.977300 +/- 0.001489
+
+Rao mls matrices_gng t4 predict t1
+p = 0.964400 +/- 0.001853
+
+Wasserstein mls matrices_gng t4 predict t1
+p = 0.999000 +/- 0.000316
+
+	---
+starting tests for mls matrices_gng t4 predict t2
+Angular_On_Z mls matrices_gng t4 predict t2
+p = 0.995900 +/- 0.000639
+
+Angular mls matrices_gng t4 predict t2
+p = 0.995900 +/- 0.000639
+
+Euclidean_On_Z mls matrices_gng t4 predict t2
+p = 0.971100 +/- 0.001675
+
+Euclidean mls matrices_gng t4 predict t2
+p = 0.975000 +/- 0.001561
+
+Rao mls matrices_gng t4 predict t2
+p = 0.969000 +/- 0.001733
+
+Wasserstein mls matrices_gng t4 predict t2
+p = 0.999400 +/- 0.000245
+
+	---
+starting tests for mls matrices_gng t4 predict t3
+Angular_On_Z mls matrices_gng t4 predict t3
+p = 0.998400 +/- 0.000400
+
+Angular mls matrices_gng t4 predict t3
+p = 0.997300 +/- 0.000519
+
+Euclidean_On_Z mls matrices_gng t4 predict t3
+p = 0.984200 +/- 0.001247
+
+Euclidean mls matrices_gng t4 predict t3
+p = 0.984100 +/- 0.001251
+
+Rao mls matrices_gng t4 predict t3
+p = 0.973100 +/- 0.001618
+
+Wasserstein mls matrices_gng t4 predict t3
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_gng t4 predict t5
+Angular_On_Z mls matrices_gng t4 predict t5
+p = 0.998500 +/- 0.000387
+
+Angular mls matrices_gng t4 predict t5
+p = 0.998300 +/- 0.000412
+
+Euclidean_On_Z mls matrices_gng t4 predict t5
+p = 0.984600 +/- 0.001231
+
+Euclidean mls matrices_gng t4 predict t5
+p = 0.985800 +/- 0.001183
+
+Rao mls matrices_gng t4 predict t5
+p = 0.977200 +/- 0.001493
+
+Wasserstein mls matrices_gng t4 predict t5
+p = 0.999900 +/- 0.000100
+
+	---
+starting tests for mls matrices_gng t5 predict t1
+Angular_On_Z mls matrices_gng t5 predict t1
+p = 0.995300 +/- 0.000684
+
+Angular mls matrices_gng t5 predict t1
+p = 0.996800 +/- 0.000565
+
+Euclidean_On_Z mls matrices_gng t5 predict t1
+p = 0.974600 +/- 0.001573
+
+Euclidean mls matrices_gng t5 predict t1
+p = 0.975600 +/- 0.001543
+
+Rao mls matrices_gng t5 predict t1
+p = 0.964000 +/- 0.001863
+
+Wasserstein mls matrices_gng t5 predict t1
+p = 0.999600 +/- 0.000200
+
+	---
+starting tests for mls matrices_gng t5 predict t2
+Angular_On_Z mls matrices_gng t5 predict t2
+p = 0.994000 +/- 0.000772
+
+Angular mls matrices_gng t5 predict t2
+p = 0.993700 +/- 0.000791
+
+Euclidean_On_Z mls matrices_gng t5 predict t2
+p = 0.971500 +/- 0.001664
+
+Euclidean mls matrices_gng t5 predict t2
+p = 0.974700 +/- 0.001570
+
+Rao mls matrices_gng t5 predict t2
+p = 0.972300 +/- 0.001641
+
+Wasserstein mls matrices_gng t5 predict t2
+p = 0.999200 +/- 0.000283
+
+	---
+starting tests for mls matrices_gng t5 predict t3
+Angular_On_Z mls matrices_gng t5 predict t3
+p = 0.998000 +/- 0.000447
+
+Angular mls matrices_gng t5 predict t3
+p = 0.998800 +/- 0.000346
+
+Euclidean_On_Z mls matrices_gng t5 predict t3
+p = 0.984800 +/- 0.001223
+
+Euclidean mls matrices_gng t5 predict t3
+p = 0.987500 +/- 0.001111
+
+Rao mls matrices_gng t5 predict t3
+p = 0.978800 +/- 0.001441
+
+Wasserstein mls matrices_gng t5 predict t3
+p = 0.999900 +/- 0.000100
+
+	---
+starting tests for mls matrices_gng t5 predict t4
+Angular_On_Z mls matrices_gng t5 predict t4
+p = 0.999500 +/- 0.000224
+
+Angular mls matrices_gng t5 predict t4
+p = 0.999200 +/- 0.000283
+
+Euclidean_On_Z mls matrices_gng t5 predict t4
+p = 0.986000 +/- 0.001175
+
+Euclidean mls matrices_gng t5 predict t4
+p = 0.987800 +/- 0.001098
+
+Rao mls matrices_gng t5 predict t4
+p = 0.979800 +/- 0.001407
+
+Wasserstein mls matrices_gng t5 predict t4
+p = 0.999800 +/- 0.000141
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t2
+Angular_On_Z mls matrices_gng_motion_checked t1 predict t2
+p = 0.996400 +/- 0.000599
+
+Angular mls matrices_gng_motion_checked t1 predict t2
+p = 0.997700 +/- 0.000479
+
+Euclidean_On_Z mls matrices_gng_motion_checked t1 predict t2
+p = 0.977200 +/- 0.001493
+
+Euclidean mls matrices_gng_motion_checked t1 predict t2
+p = 0.979800 +/- 0.001407
+
+Rao mls matrices_gng_motion_checked t1 predict t2
+p = 0.963700 +/- 0.001870
+
+Wasserstein mls matrices_gng_motion_checked t1 predict t2
+p = 1.000000 +/- 0.000000
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t3
+Angular_On_Z mls matrices_gng_motion_checked t1 predict t3
+p = 0.991400 +/- 0.000923
+
+Angular mls matrices_gng_motion_checked t1 predict t3
+p = 0.992700 +/- 0.000851
+
+Euclidean_On_Z mls matrices_gng_motion_checked t1 predict t3
+p = 0.970400 +/- 0.001695
+
+Euclidean mls matrices_gng_motion_checked t1 predict t3
+p = 0.970000 +/- 0.001706
+
+Rao mls matrices_gng_motion_checked t1 predict t3
+p = 0.966900 +/- 0.001789
+
+Wasserstein mls matrices_gng_motion_checked t1 predict t3
+p = 0.999600 +/- 0.000200
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t4
+Angular_On_Z mls matrices_gng_motion_checked t1 predict t4
+p = 0.994800 +/- 0.000719
+
+Angular mls matrices_gng_motion_checked t1 predict t4
+p = 0.994200 +/- 0.000759
+
+Euclidean_On_Z mls matrices_gng_motion_checked t1 predict t4
+p = 0.972700 +/- 0.001630
+
+Euclidean mls matrices_gng_motion_checked t1 predict t4
+p = 0.974700 +/- 0.001570
+
+Rao mls matrices_gng_motion_checked t1 predict t4
+p = 0.960400 +/- 0.001950
+
+Wasserstein mls matrices_gng_motion_checked t1 predict t4
+p = 0.999600 +/- 0.000200
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t5
+Angular_On_Z mls matrices_gng_motion_checked t1 predict t5
+p = 0.996900 +/- 0.000556
+
+Angular mls matrices_gng_motion_checked t1 predict t5
+p = 0.997100 +/- 0.000538
+
+Euclidean_On_Z mls matrices_gng_motion_checked t1 predict t5
+p = 0.981400 +/- 0.001351
+
+Euclidean mls matrices_gng_motion_checked t1 predict t5
+p = 0.982200 +/- 0.001322
+
+Rao mls matrices_gng_motion_checked t1 predict t5
+p = 0.975500 +/- 0.001546
+
+Wasserstein mls matrices_gng_motion_checked t1 predict t5
+p = 0.999900 +/- 0.000100
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t1
+Angular_On_Z mls matrices_gng_motion_checked t2 predict t1
+p = 0.992400 +/- 0.000868
+
+Angular mls matrices_gng_motion_checked t2 predict t1
+p = 0.992700 +/- 0.000851
+
+Euclidean_On_Z mls matrices_gng_motion_checked t2 predict t1
+p = 0.959800 +/- 0.001964
+
+Euclidean mls matrices_gng_motion_checked t2 predict t1
+p = 0.969100 +/- 0.001730
+
+Rao mls matrices_gng_motion_checked t2 predict t1
+p = 0.965500 +/- 0.001825
+
+Wasserstein mls matrices_gng_motion_checked t2 predict t1
+p = 0.998600 +/- 0.000374
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t3
+Angular_On_Z mls matrices_gng_motion_checked t2 predict t3
+p = 0.992800 +/- 0.000845
+
+Angular mls matrices_gng_motion_checked t2 predict t3
+p = 0.992600 +/- 0.000857
+
+Euclidean_On_Z mls matrices_gng_motion_checked t2 predict t3
+p = 0.967700 +/- 0.001768
+
+Euclidean mls matrices_gng_motion_checked t2 predict t3
+p = 0.971700 +/- 0.001658
+
+Rao mls matrices_gng_motion_checked t2 predict t3
+p = 0.968400 +/- 0.001749
+
+Wasserstein mls matrices_gng_motion_checked t2 predict t3
+p = 0.999700 +/- 0.000173
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t4
+Angular_On_Z mls matrices_gng_motion_checked t2 predict t4
+p = 0.994500 +/- 0.000740
+
+Angular mls matrices_gng_motion_checked t2 predict t4
+p = 0.995400 +/- 0.000677
+
+Euclidean_On_Z mls matrices_gng_motion_checked t2 predict t4
+p = 0.975500 +/- 0.001546
+
+Euclidean mls matrices_gng_motion_checked t2 predict t4
+p = 0.980500 +/- 0.001383
+
+Rao mls matrices_gng_motion_checked t2 predict t4
+p = 0.966400 +/- 0.001802
+
+Wasserstein mls matrices_gng_motion_checked t2 predict t4
+p = 0.999000 +/- 0.000316
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t5
+Angular_On_Z mls matrices_gng_motion_checked t2 predict t5
+p = 0.998300 +/- 0.000412
+
+Angular mls matrices_gng_motion_checked t2 predict t5
+p = 0.998100 +/- 0.000435
+
+Euclidean_On_Z mls matrices_gng_motion_checked t2 predict t5
+p = 0.978200 +/- 0.001460
+
+Euclidean mls matrices_gng_motion_checked t2 predict t5
+p = 0.982000 +/- 0.001330
+
+Rao mls matrices_gng_motion_checked t2 predict t5
+p = 0.972600 +/- 0.001632
+
+Wasserstein mls matrices_gng_motion_checked t2 predict t5
+p = 0.999300 +/- 0.000264
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t1
+Angular_On_Z mls matrices_gng_motion_checked t3 predict t1
+p = 0.985900 +/- 0.001179
+
+Angular mls matrices_gng_motion_checked t3 predict t1
+p = 0.986300 +/- 0.001162
+
+Euclidean_On_Z mls matrices_gng_motion_checked t3 predict t1
+p = 0.943500 +/- 0.002309
+
+Euclidean mls matrices_gng_motion_checked t3 predict t1
+p = 0.949600 +/- 0.002188
+
+Rao mls matrices_gng_motion_checked t3 predict t1
+p = 0.968800 +/- 0.001739
+
+Wasserstein mls matrices_gng_motion_checked t3 predict t1
+p = 0.996100 +/- 0.000623
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t2
+Angular_On_Z mls matrices_gng_motion_checked t3 predict t2
+p = 0.995700 +/- 0.000654
+
+Angular mls matrices_gng_motion_checked t3 predict t2
+p = 0.995500 +/- 0.000669
+
+Euclidean_On_Z mls matrices_gng_motion_checked t3 predict t2
+p = 0.971700 +/- 0.001658
+
+Euclidean mls matrices_gng_motion_checked t3 predict t2
+p = 0.972200 +/- 0.001644
+
+Rao mls matrices_gng_motion_checked t3 predict t2
+p = 0.968000 +/- 0.001760
+
+Wasserstein mls matrices_gng_motion_checked t3 predict t2
+p = 0.999700 +/- 0.000173
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t4
+Angular_On_Z mls matrices_gng_motion_checked t3 predict t4
+p = 0.993700 +/- 0.000791
+
+Angular mls matrices_gng_motion_checked t3 predict t4
+p = 0.993100 +/- 0.000828
+
+Euclidean_On_Z mls matrices_gng_motion_checked t3 predict t4
+p = 0.968300 +/- 0.001752
+
+Euclidean mls matrices_gng_motion_checked t3 predict t4
+p = 0.971200 +/- 0.001672
+
+Rao mls matrices_gng_motion_checked t3 predict t4
+p = 0.970200 +/- 0.001700
+
+Wasserstein mls matrices_gng_motion_checked t3 predict t4
+p = 0.997700 +/- 0.000479
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t5
+Angular_On_Z mls matrices_gng_motion_checked t3 predict t5
+p = 0.995000 +/- 0.000705
+
+Angular mls matrices_gng_motion_checked t3 predict t5
+p = 0.994000 +/- 0.000772
+
+Euclidean_On_Z mls matrices_gng_motion_checked t3 predict t5
+p = 0.959200 +/- 0.001978
+
+Euclidean mls matrices_gng_motion_checked t3 predict t5
+p = 0.964800 +/- 0.001843
+
+Rao mls matrices_gng_motion_checked t3 predict t5
+p = 0.972300 +/- 0.001641
+
+Wasserstein mls matrices_gng_motion_checked t3 predict t5
+p = 0.999400 +/- 0.000245
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t1
+Angular_On_Z mls matrices_gng_motion_checked t4 predict t1
+p = 0.987800 +/- 0.001098
+
+Angular mls matrices_gng_motion_checked t4 predict t1
+p = 0.988800 +/- 0.001052
+
+Euclidean_On_Z mls matrices_gng_motion_checked t4 predict t1
+p = 0.944500 +/- 0.002290
+
+Euclidean mls matrices_gng_motion_checked t4 predict t1
+p = 0.955600 +/- 0.002060
+
+Rao mls matrices_gng_motion_checked t4 predict t1
+p = 0.966400 +/- 0.001802
+
+Wasserstein mls matrices_gng_motion_checked t4 predict t1
+p = 0.999600 +/- 0.000200
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t2
+Angular_On_Z mls matrices_gng_motion_checked t4 predict t2
+p = 0.996800 +/- 0.000565
+
+Angular mls matrices_gng_motion_checked t4 predict t2
+p = 0.996800 +/- 0.000565
+
+Euclidean_On_Z mls matrices_gng_motion_checked t4 predict t2
+p = 0.972700 +/- 0.001630
+
+Euclidean mls matrices_gng_motion_checked t4 predict t2
+p = 0.974300 +/- 0.001582
+
+Rao mls matrices_gng_motion_checked t4 predict t2
+p = 0.967600 +/- 0.001771
+
+Wasserstein mls matrices_gng_motion_checked t4 predict t2
+p = 0.999700 +/- 0.000173
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t3
+Angular_On_Z mls matrices_gng_motion_checked t4 predict t3
+p = 0.994600 +/- 0.000733
+
+Angular mls matrices_gng_motion_checked t4 predict t3
+p = 0.994100 +/- 0.000766
+
+Euclidean_On_Z mls matrices_gng_motion_checked t4 predict t3
+p = 0.975100 +/- 0.001558
+
+Euclidean mls matrices_gng_motion_checked t4 predict t3
+p = 0.979700 +/- 0.001410
+
+Rao mls matrices_gng_motion_checked t4 predict t3
+p = 0.969800 +/- 0.001711
+
+Wasserstein mls matrices_gng_motion_checked t4 predict t3
+p = 0.998900 +/- 0.000331
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t5
+Angular_On_Z mls matrices_gng_motion_checked t4 predict t5
+p = 0.992700 +/- 0.000851
+
+Angular mls matrices_gng_motion_checked t4 predict t5
+p = 0.993800 +/- 0.000785
+
+Euclidean_On_Z mls matrices_gng_motion_checked t4 predict t5
+p = 0.956100 +/- 0.002049
+
+Euclidean mls matrices_gng_motion_checked t4 predict t5
+p = 0.961300 +/- 0.001929
+
+Rao mls matrices_gng_motion_checked t4 predict t5
+p = 0.967400 +/- 0.001776
+
+Wasserstein mls matrices_gng_motion_checked t4 predict t5
+p = 0.999200 +/- 0.000283
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t1
+Angular_On_Z mls matrices_gng_motion_checked t5 predict t1
+p = 0.996400 +/- 0.000599
+
+Angular mls matrices_gng_motion_checked t5 predict t1
+p = 0.996700 +/- 0.000574
+
+Euclidean_On_Z mls matrices_gng_motion_checked t5 predict t1
+p = 0.975100 +/- 0.001558
+
+Euclidean mls matrices_gng_motion_checked t5 predict t1
+p = 0.977500 +/- 0.001483
+
+Rao mls matrices_gng_motion_checked t5 predict t1
+p = 0.975600 +/- 0.001543
+
+Wasserstein mls matrices_gng_motion_checked t5 predict t1
+p = 1.000000 +/- 0.000000
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t2
+Angular_On_Z mls matrices_gng_motion_checked t5 predict t2
+p = 0.998500 +/- 0.000387
+
+Angular mls matrices_gng_motion_checked t5 predict t2
+p = 0.997700 +/- 0.000479
+
+Euclidean_On_Z mls matrices_gng_motion_checked t5 predict t2
+p = 0.987200 +/- 0.001124
+
+Euclidean mls matrices_gng_motion_checked t5 predict t2
+p = 0.990400 +/- 0.000975
+
+Rao mls matrices_gng_motion_checked t5 predict t2
+p = 0.976800 +/- 0.001505
+
+Wasserstein mls matrices_gng_motion_checked t5 predict t2
+p = 0.999900 +/- 0.000100
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t3
+Angular_On_Z mls matrices_gng_motion_checked t5 predict t3
+p = 0.994100 +/- 0.000766
+
+Angular mls matrices_gng_motion_checked t5 predict t3
+p = 0.995000 +/- 0.000705
+
+Euclidean_On_Z mls matrices_gng_motion_checked t5 predict t3
+p = 0.963700 +/- 0.001870
+
+Euclidean mls matrices_gng_motion_checked t5 predict t3
+p = 0.966800 +/- 0.001792
+
+Rao mls matrices_gng_motion_checked t5 predict t3
+p = 0.975100 +/- 0.001558
+
+Wasserstein mls matrices_gng_motion_checked t5 predict t3
+p = 0.999400 +/- 0.000245
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t4
+Angular_On_Z mls matrices_gng_motion_checked t5 predict t4
+p = 0.994100 +/- 0.000766
+
+Angular mls matrices_gng_motion_checked t5 predict t4
+p = 0.994000 +/- 0.000772
+
+Euclidean_On_Z mls matrices_gng_motion_checked t5 predict t4
+p = 0.973200 +/- 0.001615
+
+Euclidean mls matrices_gng_motion_checked t5 predict t4
+p = 0.973900 +/- 0.001594
+
+Rao mls matrices_gng_motion_checked t5 predict t4
+p = 0.967600 +/- 0.001771
+
+Wasserstein mls matrices_gng_motion_checked t5 predict t4
+p = 0.998700 +/- 0.000360
+
+	---
+starting tests for IMAGEN mid t2 predict t1
+Angular_On_Z IMAGEN mid t2 predict t1
+p = 0.941000 +/- 0.002356
+
+Angular IMAGEN mid t2 predict t1
+p = 0.944500 +/- 0.002290
+
+Euclidean_On_Z IMAGEN mid t2 predict t1
+p = 0.914600 +/- 0.002795
+
+Euclidean IMAGEN mid t2 predict t1
+p = 0.912000 +/- 0.002833
+
+Rao IMAGEN mid t2 predict t1
+p = 0.910000 +/- 0.002862
+
+Wasserstein IMAGEN mid t2 predict t1
+p = 0.960400 +/- 0.001950
+
+	---
+starting tests for IMAGEN sst t2 predict t1
+Angular_On_Z IMAGEN sst t2 predict t1
+p = 0.937900 +/- 0.002413
+
+Angular IMAGEN sst t2 predict t1
+p = 0.940800 +/- 0.002360
+
+Euclidean_On_Z IMAGEN sst t2 predict t1
+p = 0.905500 +/- 0.002925
+
+Euclidean IMAGEN sst t2 predict t1
+p = 0.907400 +/- 0.002899
+
+Rao IMAGEN sst t2 predict t1
+p = 0.936000 +/- 0.002448
+
+Wasserstein IMAGEN sst t2 predict t1
+p = 0.955000 +/- 0.002073
+
+	---
+starting tests for IMAGEN mid t1 predict t2
+Chebyshev IMAGEN mid t1 predict t2
+p = 0.784900 +/- 0.004109
+
+Chebyshev_On_Z IMAGEN mid t1 predict t2
+p = 0.787000 +/- 0.004094
+
+Manhattan IMAGEN mid t1 predict t2
+p = 0.911500 +/- 0.002840
+
+Manhattan_On_Z IMAGEN mid t1 predict t2
+p = 0.907700 +/- 0.002894
+
+	---
+starting tests for IMAGEN mid t2 predict t1
+Chebyshev IMAGEN mid t2 predict t1
+p = 0.779700 +/- 0.004144
+
+Chebyshev_On_Z IMAGEN mid t2 predict t1
+p = 0.785400 +/- 0.004105
+
+Manhattan IMAGEN mid t2 predict t1
+p = 0.915800 +/- 0.002777
+
+Manhattan_On_Z IMAGEN mid t2 predict t1
+p = 0.912800 +/- 0.002821
+
+	---
+starting tests for IMAGEN sst t1 predict t2
+Chebyshev IMAGEN sst t1 predict t2
+p = 0.775400 +/- 0.004173
+
+Chebyshev_On_Z IMAGEN sst t1 predict t2
+p = 0.767700 +/- 0.004223
+
+Manhattan IMAGEN sst t1 predict t2
+p = 0.898600 +/- 0.003019
+
+Manhattan_On_Z IMAGEN sst t1 predict t2
+p = 0.897800 +/- 0.003029
+
+	---
+starting tests for IMAGEN sst t2 predict t1
+Chebyshev IMAGEN sst t2 predict t1
+p = 0.762200 +/- 0.004257
+
+Chebyshev_On_Z IMAGEN sst t2 predict t1
+p = 0.764500 +/- 0.004243
+
+Manhattan IMAGEN sst t2 predict t1
+p = 0.911200 +/- 0.002845
+
+Manhattan_On_Z IMAGEN sst t2 predict t1
+p = 0.902500 +/- 0.002966
+
+	---
+starting tests for mls matrices t1 predict t2
+Chebyshev mls matrices t1 predict t2
+p = 0.872000 +/- 0.003341
+
+Chebyshev_On_Z mls matrices t1 predict t2
+p = 0.891600 +/- 0.003109
+
+Manhattan mls matrices t1 predict t2
+p = 0.960800 +/- 0.001941
+
+Manhattan_On_Z mls matrices t1 predict t2
+p = 0.951500 +/- 0.002148
+
+	---
+starting tests for mls matrices t1 predict t3
+Chebyshev mls matrices t1 predict t3
+p = 0.852200 +/- 0.003549
+
+Chebyshev_On_Z mls matrices t1 predict t3
+p = 0.863500 +/- 0.003433
+
+Manhattan mls matrices t1 predict t3
+p = 0.927000 +/- 0.002601
+
+Manhattan_On_Z mls matrices t1 predict t3
+p = 0.918200 +/- 0.002741
+
+	---
+starting tests for mls matrices t1 predict t4
+Chebyshev mls matrices t1 predict t4
+p = 0.859100 +/- 0.003479
+
+Chebyshev_On_Z mls matrices t1 predict t4
+p = 0.871500 +/- 0.003346
+
+Manhattan mls matrices t1 predict t4
+p = 0.925200 +/- 0.002631
+
+Manhattan_On_Z mls matrices t1 predict t4
+p = 0.917700 +/- 0.002748
+
+	---
+starting tests for mls matrices t1 predict t5
+Chebyshev mls matrices t1 predict t5
+p = 0.854700 +/- 0.003524
+
+Chebyshev_On_Z mls matrices t1 predict t5
+p = 0.863450 +/- 0.003434
+
+Manhattan mls matrices t1 predict t5
+p = 0.914800 +/- 0.002792
+
+Manhattan_On_Z mls matrices t1 predict t5
+p = 0.910000 +/- 0.002862
+
+	---
+starting tests for mls matrices t2 predict t1
+Chebyshev mls matrices t2 predict t1
+p = 0.885700 +/- 0.003182
+
+Chebyshev_On_Z mls matrices t2 predict t1
+p = 0.895800 +/- 0.003055
+
+Manhattan mls matrices t2 predict t1
+p = 0.974300 +/- 0.001582
+
+Manhattan_On_Z mls matrices t2 predict t1
+p = 0.968800 +/- 0.001739
+
+	---
+starting tests for mls matrices t2 predict t3
+Chebyshev mls matrices t2 predict t3
+p = 0.873300 +/- 0.003326
+
+Chebyshev_On_Z mls matrices t2 predict t3
+p = 0.888000 +/- 0.003154
+
+Manhattan mls matrices t2 predict t3
+p = 0.952900 +/- 0.002119
+
+Manhattan_On_Z mls matrices t2 predict t3
+p = 0.948600 +/- 0.002208
+
+	---
+starting tests for mls matrices t2 predict t4
+Chebyshev mls matrices t2 predict t4
+p = 0.867700 +/- 0.003388
+
+Chebyshev_On_Z mls matrices t2 predict t4
+p = 0.881500 +/- 0.003232
+
+Manhattan mls matrices t2 predict t4
+p = 0.943100 +/- 0.002317
+
+Manhattan_On_Z mls matrices t2 predict t4
+p = 0.927900 +/- 0.002587
+
+	---
+starting tests for mls matrices t2 predict t5
+Chebyshev mls matrices t2 predict t5
+p = 0.872300 +/- 0.003338
+
+Chebyshev_On_Z mls matrices t2 predict t5
+p = 0.877200 +/- 0.003282
+
+Manhattan mls matrices t2 predict t5
+p = 0.937900 +/- 0.002413
+
+Manhattan_On_Z mls matrices t2 predict t5
+p = 0.927400 +/- 0.002595
+
+	---
+starting tests for mls matrices t3 predict t1
+Chebyshev mls matrices t3 predict t1
+p = 0.862100 +/- 0.003448
+
+Chebyshev_On_Z mls matrices t3 predict t1
+p = 0.865600 +/- 0.003411
+
+Manhattan mls matrices t3 predict t1
+p = 0.958000 +/- 0.002006
+
+Manhattan_On_Z mls matrices t3 predict t1
+p = 0.950200 +/- 0.002175
+
+	---
+starting tests for mls matrices t3 predict t2
+Chebyshev mls matrices t3 predict t2
+p = 0.868500 +/- 0.003379
+
+Chebyshev_On_Z mls matrices t3 predict t2
+p = 0.892250 +/- 0.003101
+
+Manhattan mls matrices t3 predict t2
+p = 0.960200 +/- 0.001955
+
+Manhattan_On_Z mls matrices t3 predict t2
+p = 0.957800 +/- 0.002010
+
+	---
+starting tests for mls matrices t3 predict t4
+Chebyshev mls matrices t3 predict t4
+p = 0.915400 +/- 0.002783
+
+Chebyshev_On_Z mls matrices t3 predict t4
+p = 0.919100 +/- 0.002727
+
+Manhattan mls matrices t3 predict t4
+p = 0.985800 +/- 0.001183
+
+Manhattan_On_Z mls matrices t3 predict t4
+p = 0.983200 +/- 0.001285
+
+	---
+starting tests for mls matrices t3 predict t5
+Chebyshev mls matrices t3 predict t5
+p = 0.896700 +/- 0.003044
+
+Chebyshev_On_Z mls matrices t3 predict t5
+p = 0.910500 +/- 0.002855
+
+Manhattan mls matrices t3 predict t5
+p = 0.980800 +/- 0.001372
+
+Manhattan_On_Z mls matrices t3 predict t5
+p = 0.975600 +/- 0.001543
+
+	---
+starting tests for mls matrices t4 predict t1
+Chebyshev mls matrices t4 predict t1
+p = 0.852500 +/- 0.003546
+
+Chebyshev_On_Z mls matrices t4 predict t1
+p = 0.889300 +/- 0.003138
+
+Manhattan mls matrices t4 predict t1
+p = 0.953300 +/- 0.002110
+
+Manhattan_On_Z mls matrices t4 predict t1
+p = 0.942300 +/- 0.002332
+
+	---
+starting tests for mls matrices t4 predict t2
+Chebyshev mls matrices t4 predict t2
+p = 0.861900 +/- 0.003450
+
+Chebyshev_On_Z mls matrices t4 predict t2
+p = 0.884800 +/- 0.003193
+
+Manhattan mls matrices t4 predict t2
+p = 0.958000 +/- 0.002006
+
+Manhattan_On_Z mls matrices t4 predict t2
+p = 0.945900 +/- 0.002262
+
+	---
+starting tests for mls matrices t4 predict t3
+Chebyshev mls matrices t4 predict t3
+p = 0.906200 +/- 0.002916
+
+Chebyshev_On_Z mls matrices t4 predict t3
+p = 0.922700 +/- 0.002671
+
+Manhattan mls matrices t4 predict t3
+p = 0.987100 +/- 0.001128
+
+Manhattan_On_Z mls matrices t4 predict t3
+p = 0.986200 +/- 0.001167
+
+	---
+starting tests for mls matrices t4 predict t5
+Chebyshev mls matrices t4 predict t5
+p = 0.928700 +/- 0.002573
+
+Chebyshev_On_Z mls matrices t4 predict t5
+p = 0.937700 +/- 0.002417
+
+Manhattan mls matrices t4 predict t5
+p = 0.985500 +/- 0.001195
+
+Manhattan_On_Z mls matrices t4 predict t5
+p = 0.982700 +/- 0.001304
+
+	---
+starting tests for mls matrices t5 predict t1
+Chebyshev mls matrices t5 predict t1
+p = 0.861900 +/- 0.003450
+
+Chebyshev_On_Z mls matrices t5 predict t1
+p = 0.876950 +/- 0.003285
+
+Manhattan mls matrices t5 predict t1
+p = 0.952600 +/- 0.002125
+
+Manhattan_On_Z mls matrices t5 predict t1
+p = 0.947900 +/- 0.002222
+
+	---
+starting tests for mls matrices t5 predict t2
+Chebyshev mls matrices t5 predict t2
+p = 0.875900 +/- 0.003297
+
+Chebyshev_On_Z mls matrices t5 predict t2
+p = 0.887450 +/- 0.003160
+
+Manhattan mls matrices t5 predict t2
+p = 0.956300 +/- 0.002044
+
+Manhattan_On_Z mls matrices t5 predict t2
+p = 0.944400 +/- 0.002291
+
+	---
+starting tests for mls matrices t5 predict t3
+Chebyshev mls matrices t5 predict t3
+p = 0.898000 +/- 0.003026
+
+Chebyshev_On_Z mls matrices t5 predict t3
+p = 0.920900 +/- 0.002699
+
+Manhattan mls matrices t5 predict t3
+p = 0.989000 +/- 0.001043
+
+Manhattan_On_Z mls matrices t5 predict t3
+p = 0.983800 +/- 0.001262
+
+	---
+starting tests for mls matrices t5 predict t4
+Chebyshev mls matrices t5 predict t4
+p = 0.917900 +/- 0.002745
+
+Chebyshev_On_Z mls matrices t5 predict t4
+p = 0.941200 +/- 0.002352
+
+Manhattan mls matrices t5 predict t4
+p = 0.990700 +/- 0.000960
+
+Manhattan_On_Z mls matrices t5 predict t4
+p = 0.987300 +/- 0.001120
+
+	---
+starting tests for mls matrices_gng t1 predict t2
+Chebyshev mls matrices_gng t1 predict t2
+p = 0.890400 +/- 0.003124
+
+Chebyshev_On_Z mls matrices_gng t1 predict t2
+p = 0.898700 +/- 0.003017
+
+Manhattan mls matrices_gng t1 predict t2
+p = 0.971400 +/- 0.001667
+
+Manhattan_On_Z mls matrices_gng t1 predict t2
+p = 0.969000 +/- 0.001733
+
+	---
+starting tests for mls matrices_gng t1 predict t3
+Chebyshev mls matrices_gng t1 predict t3
+p = 0.874000 +/- 0.003318
+
+Chebyshev_On_Z mls matrices_gng t1 predict t3
+p = 0.883500 +/- 0.003208
+
+Manhattan mls matrices_gng t1 predict t3
+p = 0.953100 +/- 0.002114
+
+Manhattan_On_Z mls matrices_gng t1 predict t3
+p = 0.945100 +/- 0.002278
+
+	---
+starting tests for mls matrices_gng t1 predict t4
+Chebyshev mls matrices_gng t1 predict t4
+p = 0.876800 +/- 0.003287
+
+Chebyshev_On_Z mls matrices_gng t1 predict t4
+p = 0.894600 +/- 0.003071
+
+Manhattan mls matrices_gng t1 predict t4
+p = 0.943900 +/- 0.002301
+
+Manhattan_On_Z mls matrices_gng t1 predict t4
+p = 0.943000 +/- 0.002318
+
+	---
+starting tests for mls matrices_gng t1 predict t5
+Chebyshev mls matrices_gng t1 predict t5
+p = 0.883600 +/- 0.003207
+
+Chebyshev_On_Z mls matrices_gng t1 predict t5
+p = 0.894300 +/- 0.003075
+
+Manhattan mls matrices_gng t1 predict t5
+p = 0.941600 +/- 0.002345
+
+Manhattan_On_Z mls matrices_gng t1 predict t5
+p = 0.931300 +/- 0.002529
+
+	---
+starting tests for mls matrices_gng t2 predict t1
+Chebyshev mls matrices_gng t2 predict t1
+p = 0.893700 +/- 0.003082
+
+Chebyshev_On_Z mls matrices_gng t2 predict t1
+p = 0.903300 +/- 0.002955
+
+Manhattan mls matrices_gng t2 predict t1
+p = 0.987700 +/- 0.001102
+
+Manhattan_On_Z mls matrices_gng t2 predict t1
+p = 0.984400 +/- 0.001239
+
+	---
+starting tests for mls matrices_gng t2 predict t3
+Chebyshev mls matrices_gng t2 predict t3
+p = 0.886300 +/- 0.003174
+
+Chebyshev_On_Z mls matrices_gng t2 predict t3
+p = 0.904800 +/- 0.002935
+
+Manhattan mls matrices_gng t2 predict t3
+p = 0.977100 +/- 0.001496
+
+Manhattan_On_Z mls matrices_gng t2 predict t3
+p = 0.974200 +/- 0.001585
+
+	---
+starting tests for mls matrices_gng t2 predict t4
+Chebyshev mls matrices_gng t2 predict t4
+p = 0.882900 +/- 0.003215
+
+Chebyshev_On_Z mls matrices_gng t2 predict t4
+p = 0.899900 +/- 0.003001
+
+Manhattan mls matrices_gng t2 predict t4
+p = 0.970300 +/- 0.001698
+
+Manhattan_On_Z mls matrices_gng t2 predict t4
+p = 0.963000 +/- 0.001888
+
+	---
+starting tests for mls matrices_gng t2 predict t5
+Chebyshev mls matrices_gng t2 predict t5
+p = 0.884800 +/- 0.003193
+
+Chebyshev_On_Z mls matrices_gng t2 predict t5
+p = 0.895300 +/- 0.003062
+
+Manhattan mls matrices_gng t2 predict t5
+p = 0.959200 +/- 0.001978
+
+Manhattan_On_Z mls matrices_gng t2 predict t5
+p = 0.956700 +/- 0.002035
+
+	---
+starting tests for mls matrices_gng t3 predict t1
+Chebyshev mls matrices_gng t3 predict t1
+p = 0.881300 +/- 0.003234
+
+Chebyshev_On_Z mls matrices_gng t3 predict t1
+p = 0.893500 +/- 0.003085
+
+Manhattan mls matrices_gng t3 predict t1
+p = 0.976900 +/- 0.001502
+
+Manhattan_On_Z mls matrices_gng t3 predict t1
+p = 0.972000 +/- 0.001650
+
+	---
+starting tests for mls matrices_gng t3 predict t2
+Chebyshev mls matrices_gng t3 predict t2
+p = 0.896500 +/- 0.003046
+
+Chebyshev_On_Z mls matrices_gng t3 predict t2
+p = 0.904700 +/- 0.002936
+
+Manhattan mls matrices_gng t3 predict t2
+p = 0.976300 +/- 0.001521
+
+Manhattan_On_Z mls matrices_gng t3 predict t2
+p = 0.968800 +/- 0.001739
+
+	---
+starting tests for mls matrices_gng t3 predict t4
+Chebyshev mls matrices_gng t3 predict t4
+p = 0.912900 +/- 0.002820
+
+Chebyshev_On_Z mls matrices_gng t3 predict t4
+p = 0.918800 +/- 0.002731
+
+Manhattan mls matrices_gng t3 predict t4
+p = 0.987600 +/- 0.001107
+
+Manhattan_On_Z mls matrices_gng t3 predict t4
+p = 0.985100 +/- 0.001212
+
+	---
+starting tests for mls matrices_gng t3 predict t5
+Chebyshev mls matrices_gng t3 predict t5
+p = 0.886600 +/- 0.003171
+
+Chebyshev_On_Z mls matrices_gng t3 predict t5
+p = 0.914900 +/- 0.002790
+
+Manhattan mls matrices_gng t3 predict t5
+p = 0.980800 +/- 0.001372
+
+Manhattan_On_Z mls matrices_gng t3 predict t5
+p = 0.973000 +/- 0.001621
+
+	---
+starting tests for mls matrices_gng t4 predict t1
+Chebyshev mls matrices_gng t4 predict t1
+p = 0.889100 +/- 0.003140
+
+Chebyshev_On_Z mls matrices_gng t4 predict t1
+p = 0.910000 +/- 0.002862
+
+Manhattan mls matrices_gng t4 predict t1
+p = 0.980600 +/- 0.001379
+
+Manhattan_On_Z mls matrices_gng t4 predict t1
+p = 0.970800 +/- 0.001684
+
+	---
+starting tests for mls matrices_gng t4 predict t2
+Chebyshev mls matrices_gng t4 predict t2
+p = 0.887400 +/- 0.003161
+
+Chebyshev_On_Z mls matrices_gng t4 predict t2
+p = 0.909400 +/- 0.002870
+
+Manhattan mls matrices_gng t4 predict t2
+p = 0.976500 +/- 0.001515
+
+Manhattan_On_Z mls matrices_gng t4 predict t2
+p = 0.970400 +/- 0.001695
+
+	---
+starting tests for mls matrices_gng t4 predict t3
+Chebyshev mls matrices_gng t4 predict t3
+p = 0.907400 +/- 0.002899
+
+Chebyshev_On_Z mls matrices_gng t4 predict t3
+p = 0.921200 +/- 0.002694
+
+Manhattan mls matrices_gng t4 predict t3
+p = 0.987100 +/- 0.001128
+
+Manhattan_On_Z mls matrices_gng t4 predict t3
+p = 0.982900 +/- 0.001296
+
+	---
+starting tests for mls matrices_gng t4 predict t5
+Chebyshev mls matrices_gng t4 predict t5
+p = 0.925800 +/- 0.002621
+
+Chebyshev_On_Z mls matrices_gng t4 predict t5
+p = 0.936800 +/- 0.002433
+
+Manhattan mls matrices_gng t4 predict t5
+p = 0.985600 +/- 0.001191
+
+Manhattan_On_Z mls matrices_gng t4 predict t5
+p = 0.978900 +/- 0.001437
+
+	---
+starting tests for mls matrices_gng t5 predict t1
+Chebyshev mls matrices_gng t5 predict t1
+p = 0.894400 +/- 0.003073
+
+Chebyshev_On_Z mls matrices_gng t5 predict t1
+p = 0.905900 +/- 0.002920
+
+Manhattan mls matrices_gng t5 predict t1
+p = 0.979200 +/- 0.001427
+
+Manhattan_On_Z mls matrices_gng t5 predict t1
+p = 0.972200 +/- 0.001644
+
+	---
+starting tests for mls matrices_gng t5 predict t2
+Chebyshev mls matrices_gng t5 predict t2
+p = 0.886000 +/- 0.003178
+
+Chebyshev_On_Z mls matrices_gng t5 predict t2
+p = 0.903500 +/- 0.002953
+
+Manhattan mls matrices_gng t5 predict t2
+p = 0.974700 +/- 0.001570
+
+Manhattan_On_Z mls matrices_gng t5 predict t2
+p = 0.970900 +/- 0.001681
+
+	---
+starting tests for mls matrices_gng t5 predict t3
+Chebyshev mls matrices_gng t5 predict t3
+p = 0.896300 +/- 0.003049
+
+Chebyshev_On_Z mls matrices_gng t5 predict t3
+p = 0.917800 +/- 0.002747
+
+Manhattan mls matrices_gng t5 predict t3
+p = 0.989500 +/- 0.001019
+
+Manhattan_On_Z mls matrices_gng t5 predict t3
+p = 0.986300 +/- 0.001162
+
+	---
+starting tests for mls matrices_gng t5 predict t4
+Chebyshev mls matrices_gng t5 predict t4
+p = 0.919500 +/- 0.002721
+
+Chebyshev_On_Z mls matrices_gng t5 predict t4
+p = 0.936300 +/- 0.002442
+
+Manhattan mls matrices_gng t5 predict t4
+p = 0.990000 +/- 0.000995
+
+Manhattan_On_Z mls matrices_gng t5 predict t4
+p = 0.990200 +/- 0.000985
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t2
+Chebyshev mls matrices_gng_motion_checked t1 predict t2
+p = 0.881000 +/- 0.003238
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t1 predict t2
+p = 0.906100 +/- 0.002917
+
+Manhattan mls matrices_gng_motion_checked t1 predict t2
+p = 0.983700 +/- 0.001266
+
+Manhattan_On_Z mls matrices_gng_motion_checked t1 predict t2
+p = 0.978600 +/- 0.001447
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t3
+Chebyshev mls matrices_gng_motion_checked t1 predict t3
+p = 0.871900 +/- 0.003342
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t1 predict t3
+p = 0.882300 +/- 0.003223
+
+Manhattan mls matrices_gng_motion_checked t1 predict t3
+p = 0.973700 +/- 0.001600
+
+Manhattan_On_Z mls matrices_gng_motion_checked t1 predict t3
+p = 0.967700 +/- 0.001768
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t4
+Chebyshev mls matrices_gng_motion_checked t1 predict t4
+p = 0.896200 +/- 0.003050
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t1 predict t4
+p = 0.904100 +/- 0.002945
+
+Manhattan mls matrices_gng_motion_checked t1 predict t4
+p = 0.977000 +/- 0.001499
+
+Manhattan_On_Z mls matrices_gng_motion_checked t1 predict t4
+p = 0.972300 +/- 0.001641
+
+	---
+starting tests for mls matrices_gng_motion_checked t1 predict t5
+Chebyshev mls matrices_gng_motion_checked t1 predict t5
+p = 0.918900 +/- 0.002730
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t1 predict t5
+p = 0.937100 +/- 0.002428
+
+Manhattan mls matrices_gng_motion_checked t1 predict t5
+p = 0.985900 +/- 0.001179
+
+Manhattan_On_Z mls matrices_gng_motion_checked t1 predict t5
+p = 0.982100 +/- 0.001326
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t1
+Chebyshev mls matrices_gng_motion_checked t2 predict t1
+p = 0.882500 +/- 0.003220
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t2 predict t1
+p = 0.890100 +/- 0.003128
+
+Manhattan mls matrices_gng_motion_checked t2 predict t1
+p = 0.967600 +/- 0.001771
+
+Manhattan_On_Z mls matrices_gng_motion_checked t2 predict t1
+p = 0.961500 +/- 0.001924
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t3
+Chebyshev mls matrices_gng_motion_checked t2 predict t3
+p = 0.872500 +/- 0.003335
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t2 predict t3
+p = 0.879400 +/- 0.003257
+
+Manhattan mls matrices_gng_motion_checked t2 predict t3
+p = 0.974700 +/- 0.001570
+
+Manhattan_On_Z mls matrices_gng_motion_checked t2 predict t3
+p = 0.971600 +/- 0.001661
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t4
+Chebyshev mls matrices_gng_motion_checked t2 predict t4
+p = 0.896400 +/- 0.003047
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t2 predict t4
+p = 0.908400 +/- 0.002885
+
+Manhattan mls matrices_gng_motion_checked t2 predict t4
+p = 0.979400 +/- 0.001420
+
+Manhattan_On_Z mls matrices_gng_motion_checked t2 predict t4
+p = 0.974900 +/- 0.001564
+
+	---
+starting tests for mls matrices_gng_motion_checked t2 predict t5
+Chebyshev mls matrices_gng_motion_checked t2 predict t5
+p = 0.930600 +/- 0.002541
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t2 predict t5
+p = 0.939900 +/- 0.002377
+
+Manhattan mls matrices_gng_motion_checked t2 predict t5
+p = 0.984100 +/- 0.001251
+
+Manhattan_On_Z mls matrices_gng_motion_checked t2 predict t5
+p = 0.979200 +/- 0.001427
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t1
+Chebyshev mls matrices_gng_motion_checked t3 predict t1
+p = 0.873000 +/- 0.003330
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t3 predict t1
+p = 0.881500 +/- 0.003232
+
+Manhattan mls matrices_gng_motion_checked t3 predict t1
+p = 0.950800 +/- 0.002163
+
+Manhattan_On_Z mls matrices_gng_motion_checked t3 predict t1
+p = 0.947000 +/- 0.002240
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t2
+Chebyshev mls matrices_gng_motion_checked t3 predict t2
+p = 0.878300 +/- 0.003269
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t3 predict t2
+p = 0.891800 +/- 0.003106
+
+Manhattan mls matrices_gng_motion_checked t3 predict t2
+p = 0.974200 +/- 0.001585
+
+Manhattan_On_Z mls matrices_gng_motion_checked t3 predict t2
+p = 0.972400 +/- 0.001638
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t4
+Chebyshev mls matrices_gng_motion_checked t3 predict t4
+p = 0.876200 +/- 0.003294
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t3 predict t4
+p = 0.901500 +/- 0.002980
+
+Manhattan mls matrices_gng_motion_checked t3 predict t4
+p = 0.973400 +/- 0.001609
+
+Manhattan_On_Z mls matrices_gng_motion_checked t3 predict t4
+p = 0.970800 +/- 0.001684
+
+	---
+starting tests for mls matrices_gng_motion_checked t3 predict t5
+Chebyshev mls matrices_gng_motion_checked t3 predict t5
+p = 0.890200 +/- 0.003126
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t3 predict t5
+p = 0.914200 +/- 0.002801
+
+Manhattan mls matrices_gng_motion_checked t3 predict t5
+p = 0.967100 +/- 0.001784
+
+Manhattan_On_Z mls matrices_gng_motion_checked t3 predict t5
+p = 0.964500 +/- 0.001850
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t1
+Chebyshev mls matrices_gng_motion_checked t4 predict t1
+p = 0.888300 +/- 0.003150
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t4 predict t1
+p = 0.894500 +/- 0.003072
+
+Manhattan mls matrices_gng_motion_checked t4 predict t1
+p = 0.955900 +/- 0.002053
+
+Manhattan_On_Z mls matrices_gng_motion_checked t4 predict t1
+p = 0.947000 +/- 0.002240
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t2
+Chebyshev mls matrices_gng_motion_checked t4 predict t2
+p = 0.899500 +/- 0.003007
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t4 predict t2
+p = 0.917900 +/- 0.002745
+
+Manhattan mls matrices_gng_motion_checked t4 predict t2
+p = 0.977500 +/- 0.001483
+
+Manhattan_On_Z mls matrices_gng_motion_checked t4 predict t2
+p = 0.973200 +/- 0.001615
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t3
+Chebyshev mls matrices_gng_motion_checked t4 predict t3
+p = 0.888400 +/- 0.003149
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t4 predict t3
+p = 0.906300 +/- 0.002914
+
+Manhattan mls matrices_gng_motion_checked t4 predict t3
+p = 0.981900 +/- 0.001333
+
+Manhattan_On_Z mls matrices_gng_motion_checked t4 predict t3
+p = 0.975200 +/- 0.001555
+
+	---
+starting tests for mls matrices_gng_motion_checked t4 predict t5
+Chebyshev mls matrices_gng_motion_checked t4 predict t5
+p = 0.895500 +/- 0.003059
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t4 predict t5
+p = 0.912300 +/- 0.002829
+
+Manhattan mls matrices_gng_motion_checked t4 predict t5
+p = 0.959800 +/- 0.001964
+
+Manhattan_On_Z mls matrices_gng_motion_checked t4 predict t5
+p = 0.957400 +/- 0.002020
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t1
+Chebyshev mls matrices_gng_motion_checked t5 predict t1
+p = 0.920000 +/- 0.002713
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t5 predict t1
+p = 0.932000 +/- 0.002517
+
+Manhattan mls matrices_gng_motion_checked t5 predict t1
+p = 0.978200 +/- 0.001460
+
+Manhattan_On_Z mls matrices_gng_motion_checked t5 predict t1
+p = 0.973800 +/- 0.001597
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t2
+Chebyshev mls matrices_gng_motion_checked t5 predict t2
+p = 0.930300 +/- 0.002546
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t5 predict t2
+p = 0.936500 +/- 0.002439
+
+Manhattan mls matrices_gng_motion_checked t5 predict t2
+p = 0.991300 +/- 0.000929
+
+Manhattan_On_Z mls matrices_gng_motion_checked t5 predict t2
+p = 0.990000 +/- 0.000995
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t3
+Chebyshev mls matrices_gng_motion_checked t5 predict t3
+p = 0.897800 +/- 0.003029
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t5 predict t3
+p = 0.912700 +/- 0.002823
+
+Manhattan mls matrices_gng_motion_checked t5 predict t3
+p = 0.967700 +/- 0.001768
+
+Manhattan_On_Z mls matrices_gng_motion_checked t5 predict t3
+p = 0.964000 +/- 0.001863
+
+	---
+starting tests for mls matrices_gng_motion_checked t5 predict t4
+Chebyshev mls matrices_gng_motion_checked t5 predict t4
+p = 0.919000 +/- 0.002728
+
+Chebyshev_On_Z mls matrices_gng_motion_checked t5 predict t4
+p = 0.925700 +/- 0.002623
+
+Manhattan mls matrices_gng_motion_checked t5 predict t4
+p = 0.977700 +/- 0.001477
+
+Manhattan_On_Z mls matrices_gng_motion_checked t5 predict t4
+p = 0.974000 +/- 0.001591
+
+	---
+starting tests for mls matrices_reward t1 predict t2
+Chebyshev mls matrices_reward t1 predict t2
+p = 0.902100 +/- 0.002972
+
+Chebyshev_On_Z mls matrices_reward t1 predict t2
+p = 0.921200 +/- 0.002694
+
+Manhattan mls matrices_reward t1 predict t2
+p = 0.993500 +/- 0.000804
+
+Manhattan_On_Z mls matrices_reward t1 predict t2
+p = 0.991400 +/- 0.000923
+
+	---
+starting tests for mls matrices_reward t2 predict t1
+Chebyshev mls matrices_reward t2 predict t1
+p = 0.902600 +/- 0.002965
+
+Chebyshev_On_Z mls matrices_reward t2 predict t1
+p = 0.925900 +/- 0.002619
+
+Manhattan mls matrices_reward t2 predict t1
+p = 0.992600 +/- 0.000857
+
+Manhattan_On_Z mls matrices_reward t2 predict t1
+p = 0.991100 +/- 0.000939
+
+	---
+starting tests for mls matrices_reward_motion_checked t1 predict t2
+Chebyshev mls matrices_reward_motion_checked t1 predict t2
+p = 0.906000 +/- 0.002918
+
+Chebyshev_On_Z mls matrices_reward_motion_checked t1 predict t2
+p = 0.927700 +/- 0.002590
+
+Manhattan mls matrices_reward_motion_checked t1 predict t2
+p = 0.994200 +/- 0.000759
+
+Manhattan_On_Z mls matrices_reward_motion_checked t1 predict t2
+p = 0.991900 +/- 0.000896
+
+	---
+starting tests for mls matrices_reward_motion_checked t2 predict t1
+Chebyshev mls matrices_reward_motion_checked t2 predict t1
+p = 0.910000 +/- 0.002862
+
+Chebyshev_On_Z mls matrices_reward_motion_checked t2 predict t1
+p = 0.925100 +/- 0.002632
+
+Manhattan mls matrices_reward_motion_checked t2 predict t1
+p = 0.992400 +/- 0.000868
+
+Manhattan_On_Z mls matrices_reward_motion_checked t2 predict t1
+p = 0.990800 +/- 0.000955

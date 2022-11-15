@@ -1,4 +1,4 @@
-main()
+%main_embeddings()
 
 function filepath = get_distance_filepath(metricname, dataset, timepoint)
     filename = strcat(timepoint, ".txt");
@@ -25,7 +25,7 @@ end
 
 function build_and_write_embedding(dm, metricname, dataset, timepoint, dimension)
     filepath = get_embedding_filepath(metricname, dataset, timepoint, dimension);
-    if not(isfile(filepath))
+    if true %not(isfile(filepath))
         options = statset('MaxIter', 10000);
         [X,~] = mdscale(dm, dimension, 'Criterion','metricstress', 'Options', options);
         writematrix(X,filepath);
@@ -179,12 +179,12 @@ function graph_embedding_regressions(metricname, dataset, timepoint, max_dim)
 end
 
 function write_embeddings(metricname, dataset, max_dim)
-    gcp;
+    %gcp;
     %parpool(20);
     for timepoint = ["t2", "t1", "t1_t2"]
         dm = read_distance_matrix(metricname, dataset, timepoint);
     
-        parfor dim = 1:max_dim
+        for dim = 1:max_dim
             disp(strcat("starting ", timepoint, " ", int2str(dim)));
             %drawnow('update');
             build_and_write_embedding(dm, metricname, dataset, timepoint, dim);
@@ -207,20 +207,6 @@ function display_graph(dims, rs, rs_adj)
     legend([h1(1), h2(1), h3(1)], "|r|", "|r (adj)|", "max |r (adj)|", "Location", "southeast");
     
     hold off;
-end
-
-
-function ret = held_out(Xtrain,ytrain,Xtest,ytest)
-    lm = fitlm(Xtrain, ytrain);
-    preds = lm.predict(Xtest);
-    ret = [preds ytest];
-end
-
-function ip_matrix_test()
-    delta = read_distance_matrix("Wasserstein", "IMAGEN", "t1_t2").^2;
-    h = eye(size(delta)) - ones(size(delta))/length(delta);
-    b = -1/2 * h * delta * h;
-    disp(eig(b));
 end
 
 function ret = get_seq(length, lmin, lmax)
@@ -263,14 +249,14 @@ function ret = get_seq_from_multiplier(length, min, multiplier)
     ret = list;
 end
 
-function main()
-    disp(get_seq(1000, 1, 5000));
+function main_embeddings()
+    %disp(get_seq(1000, 1, 5000));
 
-    %metricname = "Wasserstein";
-    %dataset = "IMAGEN";
-    %timepoint = "t1_t2";
-    %max_dim = 500;
-    %write_embeddings(metricname, dataset, max_dim);
+    metricname = "Wasserstein";
+    dataset = "IMAGEN";
+    timepoint = "t1_t2";
+    max_dim = 500;
+    write_embeddings(metricname, dataset, max_dim);
     %graph_embedding_regressions(metricname, dataset, timepoint, max_dim);
     %graph_aicc_curve(metricname, dataset, timepoint, max_dim);
     %graph_simple_cv(metricname, dataset, timepoint, max_dim, 100, 10);
